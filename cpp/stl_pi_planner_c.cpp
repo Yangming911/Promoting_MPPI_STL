@@ -374,10 +374,10 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
         double this_cost;
         std::vector<MatrixXd> eps;
         MatrixXd cov_new;
-        double E1_hat_1;
+        double lambda_scale_hint;
         
-        std::tie(u, y_opt, y, best_sample_idx, this_cost, cov_new, E1_hat_1) = pi_step(u, cov_curr, lamb_curr, i);
-        std::cout << "E1_hat_1: " << E1_hat_1 << std::endl;
+        std::tie(u, y_opt, y, best_sample_idx, this_cost, cov_new, lambda_scale_hint) = pi_step(u, cov_curr, lamb_curr, i);
+        std::cout << "lambda_scale_hint: " << lambda_scale_hint << std::endl;
 
         auto end = std::chrono::high_resolution_clock::now();
         double duration = std::chrono::duration<double>(end - start).count();
@@ -428,26 +428,10 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
         // cov_curr = cov_new;
         // lamb_curr *= new_psi;
 
-        int shrink_flag = 1; // 1: new 0: old
+        int shrink_flag = 1; // 1: ESS-guided lambda/cov scaling, 0: fixed psi_
         if (shrink_flag == 1) {
-            // double new_psi;
-            // double a;
-            // a = std::log(E1_hat_1);
-            // std::cout << "********a: " << a << std::endl;
-            // if (a < -400) {
-            //     a = -400;
-            // }
-            // new_psi = std::exp(-(400+a) + std::log(0.5)) + 0.4;
-            // std::cout << "********New psi: " << new_psi << std::endl;
-            // cov_curr *= new_psi;
-            // lamb_curr *= new_psi;
-            //-----------------------------------
-            double new_psi;
-            double a;
-            a = std::log(E1_hat_1);
-            std::cout << "********a: " << a << std::endl;
-            new_psi = -0.1*a + 0.1;
-            std::cout << "********New psi: " << new_psi << std::endl;
+            const double new_psi = std::clamp(lambda_scale_hint, 0.50, 1.50);
+            std::cout << "ESS-guided scale psi = " << new_psi << std::endl;
             cov_curr *= new_psi;
             lamb_curr *= new_psi;
         } else {
@@ -553,11 +537,8 @@ PISolver::pi_step(MatrixXd u, const MatrixXd &cov_curr, double lamb_curr, int it
     if (pi_weighting_) {
         // calculate weightings for each sample
         VectorXd costs_exp = (-(cost.array() - psi) / lamb_curr).exp();
-        VectorXd costs_exp_1 = (-(cost.array()+10) / lamb_curr).exp();
         std::cout << "min cost: " << psi << std::endl;
-        // std::cout << "Costs_exp_1: " << costs_exp_1.transpose() << std::endl;
         double E1_hat = costs_exp.sum() / n_samples_;
-        double E1_hat_1 = costs_exp_1.sum() / n_samples_;
         std::cout << "%%%%%%%%%E1_hat: " << E1_hat << std::endl;
         double eta = costs_exp.sum();
         VectorXd omega = costs_exp / eta;
@@ -575,6 +556,7 @@ PISolver::pi_step(MatrixXd u, const MatrixXd &cov_curr, double lamb_curr, int it
         }
         ess = 1.0 / ess;
         std::cout << "ESS: " << ess << " / " << n_samples_ << std::endl;
+        const double ess_ratio = ess / static_cast<double>(n_samples_);
 
         // ==================== Diagnostics (whitened, scale-aware) ====================
 
@@ -777,6 +759,38 @@ PISolver::pi_step(MatrixXd u, const MatrixXd &cov_curr, double lamb_curr, int it
         }
         std::cout << "Post-update R2: " << R2_post << std::endl;
 
+        // Fast lambda update hint from Monte-Carlo sample variance.
+        // Approximation: ESS/N ≈ exp(-Var(delta_cost)/lambda^2), delta_cost = cost - min(cost).
+        // => lambda_target = sqrt(Var(delta_cost) / log(1/target_ess_ratio))
+        // Deterministic-style schedule: rho decays geometrically toward 0.
+        const double rho_init = 0.10;
+        const double rho_decay = 0.50;  // halve every iteration
+        const double rho_min = 1e-4;    // keep finite for numerical stability
+        const double target_ess_ratio = std::max(rho_min, rho_init * std::pow(rho_decay, std::max(0, iteration)));
+        const double log_term = std::log(1.0 / target_ess_ratio);
+        double delta_mean = 0.0;
+        for (int n = 0; n < n_samples_; ++n) {
+            delta_mean += cost[n] - psi;
+        }
+        delta_mean /= static_cast<double>(n_samples_);
+
+        double delta_var = 0.0;
+        for (int n = 0; n < n_samples_; ++n) {
+            const double dc = (cost[n] - psi) - delta_mean;
+            delta_var += dc * dc;
+        }
+        delta_var /= std::max(1, n_samples_ - 1);
+
+        double lambda_scale_hint = 1.0;
+        if (delta_var > 1e-12 && std::isfinite(delta_var) && log_term > 1e-12) {
+            const double lambda_target = std::sqrt(delta_var / log_term);
+            lambda_scale_hint = lambda_target / std::max(1e-12, lamb_curr);
+        }
+        lambda_scale_hint = std::clamp(lambda_scale_hint, 0.50, 1.50);
+        std::cout << "ESS ratio: " << ess_ratio
+                  << ", target rho: " << target_ess_ratio
+                  << ", lambda_scale_hint: " << lambda_scale_hint << std::endl;
+
         // Update cov using weighted variance of eps (diagonal covariance)
         MatrixXd cov_new = MatrixXd::Zero(u_dim_, u_dim_);
         for (int d = 0; d < u_dim_; ++d) {
@@ -826,13 +840,12 @@ PISolver::pi_step(MatrixXd u, const MatrixXd &cov_curr, double lamb_curr, int it
         final_cost = calculate_cost(x_opt, y_opt, u);
         printf("Final cost after weighting: %f\n", final_cost);
 
-        // return std::make_tuple(u, y_opt, y, best_sample_idx, final_cost, cov_new, E1_hat_1);
-        return std::make_tuple(u, y_opt, y, best_sample_idx, final_cost, cov_new, E1_hat);
+        return std::make_tuple(u, y_opt, y, best_sample_idx, final_cost, cov_new, lambda_scale_hint);
     } else {
         MatrixXd y_opt;
         std::tie(std::ignore, y_opt) = forward_rollout(u_samples[best_sample_idx]);
         double final_cost = calculate_cost(x[best_sample_idx], y[best_sample_idx], u_samples[best_sample_idx]);
-        return std::make_tuple(u_samples[best_sample_idx], y_opt, y, best_sample_idx, final_cost, cov_curr, 0.0);
+        return std::make_tuple(u_samples[best_sample_idx], y_opt, y, best_sample_idx, final_cost, cov_curr, 1.0);
     }
 }
 
