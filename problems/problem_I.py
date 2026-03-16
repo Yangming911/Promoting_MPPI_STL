@@ -14,6 +14,7 @@ class Problem_I(ProblemBase):
         super().__init__('Problem_I')
 
         self.robustness_cost_fct = 'viol'       # 'max' or 'viol'
+        self.cost_threshold_pi = -1e9           # viol cost dominated by terminal cost, threshold-based stop unreliable
 
         self.Q = 0 * np.diag([1])           # Quadratic state cost
         self.R = 2 * np.eye(1)              # Quadratic input cost
@@ -53,12 +54,12 @@ class Problem_I(ProblemBase):
         self.n_iter_cmaes = 2140
 
     def init_pi_solver(self):
-        alpha = 2.8
+        alpha = 4.0
         self.cov_pi = alpha * np.array([[2.]])
         self.lamb_pi = alpha * 4.0
-        self.n_samples_pi = 955
+        self.n_samples_pi = 1500
         self.nu_pi = 0.3
-        self.n_iterations_pi = 19
+        self.n_iterations_pi = 150
 
     def init_STL_guided_pi_solver(self):
         alpha = 2.8

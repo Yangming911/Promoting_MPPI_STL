@@ -16,6 +16,7 @@ class Problem_III(ProblemBase):
         super().__init__('Problem_III')
 
         self.robustness_cost_fct = 'viol'         # 'max' or 'viol'
+        self.cost_threshold_pi = -1e9             # disable early stop
 
         self.Q = 0 * np.diag([0, 0, 0, 0, 0])     # Quadratic state cost
         self.R = 100 * np.eye(2)                  # Quadratic input cost
@@ -71,10 +72,8 @@ class Problem_III(ProblemBase):
                                         [0, 0.02]])
         self.lamb_pi = alpha * 2.0
         self.n_samples_pi = 81650
-        self.nu_pi = 0.8
-        # self.nu_pi = 0.9
-        # self.n_iterations_pi = 40
-        self.n_iterations_pi = 80
+        self.nu_pi = 0.95
+        self.n_iterations_pi = 40
 
     def init_STL_guided_pi_solver(self):
         alpha = 0.1

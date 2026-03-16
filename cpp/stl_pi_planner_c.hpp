@@ -189,7 +189,7 @@ private:
     int x_dim_, y_dim_, u_dim_, K_, n_samples_, num_iterations;
     VectorXd x0_;
     MatrixXd cov_, Q_, P_, R_;
-    double lamb_, psi_, gamma_;
+    double lamb_, psi_, gamma_, cost_threshold_;
     std::function<double(MatrixXd)> robustness_cost_fct_;
     bool verbose_, use_parallel_, pi_weighting_, use_stl_guided_;
 
@@ -198,7 +198,7 @@ public:
     PISolver(STLTree &spec, DynamicSystem &sys, const VectorXd &x0, int K, int n_samples, const MatrixXd &cov,
                double lamb, double psi, int num_iterations, const MatrixXd &Q, const MatrixXd &P,
                const MatrixXd &R, double gamma, std::string robustness_cost_fct, bool use_parallel, bool pi_weighting,
-               bool verbose);
+               bool verbose, double cost_threshold = 13.5);
 
     std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, std::vector<
             std::vector < MatrixXd>>, std::vector<int>, std::vector<double>> solve();

@@ -298,10 +298,10 @@ VectorXd Bicycle::g(const VectorXd &x, const VectorXd &u) {
 PISolver::PISolver(STLTree &spec, DynamicSystem &sys, const VectorXd &x0, int K, int n_samples, const MatrixXd &cov,
                        double lamb, double psi, int num_iterations, const MatrixXd &Q, const MatrixXd &P,
                        const MatrixXd &R, double gamma, std::string robustness_cost_fct, bool use_parallel,
-                       bool pi_weighting, bool verbose)
+                       bool pi_weighting, bool verbose, double cost_threshold)
         : spec_(spec), sys_(sys), x0_(x0), K_(K + 1), n_samples_(n_samples), cov_(cov), lamb_(lamb), psi_(psi),
           num_iterations(num_iterations), Q_(Q), P_(P), R_(R), gamma_(gamma), use_parallel_(use_parallel),
-          pi_weighting_(pi_weighting), verbose_(verbose), use_stl_guided_(false) {
+          pi_weighting_(pi_weighting), verbose_(verbose), use_stl_guided_(false), cost_threshold_(cost_threshold) {
 
     x_dim_ = sys_.getXDim();
     y_dim_ = sys_.getYDim();
@@ -428,7 +428,7 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
         // cov_curr = cov_new;
         // lamb_curr *= new_psi;
 
-        int shrink_flag = 1; // 1: new 0: old
+        int shrink_flag = 0; // 1: new 0: old
         if (shrink_flag == 1) {
             // double new_psi;
             // double a;
@@ -466,9 +466,7 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
         cost_list.push_back(this_cost);
         // cost_list.push_back(cost_bi_lambda);
 
-        if (this_cost < 13.5) {
-        // if (this_cost < -1) {
-        // // if (this_cost < 15) {
+        if (this_cost < cost_threshold_) {
             break;
         }
     }

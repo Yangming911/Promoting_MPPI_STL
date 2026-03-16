@@ -20,11 +20,12 @@ class Problem_IV(ProblemBase):
         super().__init__('Problem_IV')
 
         self.robustness_cost_fct = 'max'        # 'max' or 'viol'
+        self.cost_threshold_pi = 0              # max cost ~-7 when feasible, 0 ensures rho>0
 
         self.Q = 0 * np.diag([0, 0, 0, 0])      # Quadratic state cost
         self.R = 20 * np.eye(2)                 # Quadratic input cost
         self.P = 0 * np.array([0, 0, 0, 0])     # Terminal cost
-        self.gamma = 10
+        self.gamma = 20
 
     def init_scenario(self):
         self.K = 25                                 # Time horizon
@@ -65,18 +66,13 @@ class Problem_IV(ProblemBase):
         self.n_iter_cmaes = 773
 
     def init_pi_solver(self):
-        alpha = 6.8
-        # alpha = 1
+        alpha = 12.0
         self.cov_pi = alpha * np.array([[0.5, 0],
                                         [0, 0.5]])
         self.lamb_pi = alpha * 10.0
-        # self.n_samples_pi = 1140
-        self.n_samples_pi = 1700
-        # self.n_samples_pi = 10000
+        self.n_samples_pi = 3000
         self.nu_pi = 0.85
-        # self.nu_pi = 0.9
-        # self.n_iterations_pi = 75
-        self.n_iterations_pi = 100
+        self.n_iterations_pi = 200
 
     def init_STL_guided_pi_solver(self):
         alpha = 6.8

@@ -50,7 +50,12 @@ PYBIND11_MODULE(stl_pi_planner_c, m) {
 
     py::class_<PISolver>(m, "PISolver")
         .def(py::init<STLTree&, DynamicSystem&, Eigen::VectorXd, int, int, Eigen::MatrixXd, double, double, int,
-            Eigen::MatrixXd, Eigen::MatrixXd, Eigen::MatrixXd, double, std::string, bool, bool, bool>())
+            Eigen::MatrixXd, Eigen::MatrixXd, Eigen::MatrixXd, double, std::string, bool, bool, bool, double>(),
+            py::arg("spec"), py::arg("sys"), py::arg("x0"), py::arg("K"), py::arg("n_samples"),
+            py::arg("cov"), py::arg("lamb"), py::arg("psi"), py::arg("num_iterations"),
+            py::arg("Q"), py::arg("P"), py::arg("R"), py::arg("gamma"), py::arg("robustness_cost_fct"),
+            py::arg("use_parallel"), py::arg("pi_weighting"), py::arg("verbose"),
+            py::arg("cost_threshold") = 13.5)
         .def("solve", &PISolver::solve)
         .def("set_use_stl_guided", &PISolver::set_use_stl_guided);
 

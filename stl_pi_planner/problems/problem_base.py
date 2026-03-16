@@ -69,6 +69,7 @@ class ProblemBase(ABC):
         self.cov_pi = None
         self.lamb_pi = None
         self.nu_pi = None
+        self.cost_threshold_pi = 13.5
 
         # Additional recordings for PI solver
         self.pi_record_y_opt = None
@@ -326,7 +327,7 @@ class ProblemBase(ABC):
             solver = stl_pi_planner_c.PISolver(self.cpp_spec, self.cpp_sys, self.x0, self.K, self.n_samples_pi,
                                                self.cov_pi, self.lamb_pi, self.nu_pi, self.n_iterations_pi,
                                                self.Q, self.P, self.R, self.gamma, self.robustness_cost_fct, True,
-                                               True, True)
+                                               True, True, self.cost_threshold_pi)
 
         x, u, rho, cost, solve_time, record_y_opt, record_y, record_best_sample_idx, cost_list = solver.solve()
         # x, u, rho, cost, solve_time, record_y_opt, record_y, record_best_sample_idx = solver.solve()
@@ -349,7 +350,7 @@ class ProblemBase(ABC):
             solver = stl_pi_planner_c.PISolver(self.cpp_spec, self.cpp_sys, self.x0, self.K, self.n_samples_pi,
                                                self.cov_pi, self.lamb_pi, self.nu_pi, self.n_iterations_pi,
                                                self.Q, self.P, self.R, self.gamma, self.robustness_cost_fct, True,
-                                               True, True)
+                                               True, True, self.cost_threshold_pi)
             stl_pi_planner_c.PISolver.set_use_stl_guided(solver, True)
 
         # x, u, rho, cost, solve_time, record_y_opt, record_y, record_best_sample_idx = solver.solve()
