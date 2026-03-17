@@ -430,7 +430,7 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
         // lamb_curr *= new_psi;
 
         int shrink_flag = 1; // 1: new 0: old
-        if ( i> 5) {//需要一个判断来决定是否开始保护过程，防止玻璃化
+        if ( i> 6) {//需要一个判断来决定是否开始保护过程，防止玻璃化,对比energy和entropy
             // double new_psi;
             // double a;
             // a = std::log(E1_hat_1);
@@ -447,10 +447,10 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
             double a;
             a = std::log(E1_hat_1);
             std::cout << "********a: " << a << std::endl;
-            new_psi = -0.1*a + 0.1;//温和过程防止玻璃化，仍需改进
+            new_psi = 0.843838;//-0.1*a + 0.1;//温和过程防止玻璃化，仍需改进
             std::cout << "********New psi: " << new_psi << std::endl;
-            cov_curr *= new_psi;
-            lamb_curr *= new_psi;
+            cov_curr *= 0.843838;//new_psi;
+            lamb_curr *= 0.843838;//new_psi;
         } else {
             // Scale covariance and lambda
             //double new_psi;
