@@ -1,0 +1,2269 @@
+R_ : 2
+Iteration: 0/150 ---------------------------
+Expected cost over samples: -0.892546
+min cost: -50.6616
+%%%%%%%%%E1_hat: 0.0625209
+ESS: 673.702 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.859863 traceCovElite~=0.999422 R2=0.0076818 H(w)=6.94163 perp=1034.45 w_max=0.0106631
+--------Variance: 0.0159883
+Sum of |delta_u|: 0.229157
+Post-update R2: 0.293069
+Final cost after weighting: 2.064176
+E1_hat_1: 0.0625209
+PI step 0 time: 0.0193131 seconds
+********a: -2.77225
+********New psi: 0.8
+6.4
+Iteration: 1/150 ---------------------------
+Expected cost over samples: -9.64122
+min cost: -28.951
+%%%%%%%%%E1_hat: 0.244277
+ESS: 1224.94 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.167059 traceCovElite~=1.12575 R2=0.0127951 H(w)=7.21324 perp=1357.29 w_max=0.00272915
+--------Variance: 0.00559591
+Sum of |delta_u|: 0.042119
+Post-update R2: 0.0058301
+Final cost after weighting: 2.031864
+E1_hat_1: 0.244277
+PI step 1 time: 0.016722 seconds
+********a: -1.40945
+********New psi: 0.8
+5.12
+Iteration: 2/150 ---------------------------
+Expected cost over samples: -8.42254
+min cost: -29.4582
+%%%%%%%%%E1_hat: 0.144119
+ESS: 1166.76 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.137796 traceCovElite~=1.16328 R2=0.0298271 H(w)=7.19332 perp=1330.52 w_max=0.00462582
+--------Variance: 0.00491627
+Sum of |delta_u|: 0.0358837
+Post-update R2: 0.0226624
+Final cost after weighting: 2.523694
+E1_hat_1: 0.144119
+PI step 2 time: 0.0163334 seconds
+********a: -1.93712
+********New psi: 0.8
+4.096
+Iteration: 3/150 ---------------------------
+Expected cost over samples: -7.12513
+min cost: -25.5452
+%%%%%%%%%E1_hat: 0.123844
+ESS: 1051.85 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.11454 traceCovElite~=1.27209 R2=0.0286315 H(w)=7.14618 perp=1269.25 w_max=0.00538313
+--------Variance: 0.0046067
+Sum of |delta_u|: 0.0265414
+Post-update R2: 0.00023487
+Final cost after weighting: 2.114515
+E1_hat_1: 0.123844
+PI step 3 time: 0.0173966 seconds
+********a: -2.08874
+********New psi: 0.8
+3.2768
+Iteration: 4/150 ---------------------------
+Expected cost over samples: -7.03649
+min cost: -23.2341
+%%%%%%%%%E1_hat: 0.102697
+ESS: 971.11 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.154612 traceCovElite~=1.21028 R2=0.0484532 H(w)=7.10854 perp=1222.36 w_max=0.00649158
+--------Variance: 0.00407032
+Sum of |delta_u|: 0.0383917
+Post-update R2: 0.0197335
+Final cost after weighting: 2.303421
+E1_hat_1: 0.102697
+PI step 4 time: 0.0182937 seconds
+********a: -2.27597
+********New psi: 0.8
+2.62144
+Iteration: 5/150 ---------------------------
+Expected cost over samples: -6.65573
+min cost: -21.4756
+%%%%%%%%%E1_hat: 0.0785615
+ESS: 795.204 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.145435 traceCovElite~=1.18765 R2=0.0520793 H(w)=7.01087 perp=1108.62 w_max=0.00848592
+--------Variance: 0.00403446
+Sum of |delta_u|: 0.0382442
+Post-update R2: 0.0279105
+Final cost after weighting: 1.789117
+E1_hat_1: 0.0785615
+PI step 5 time: 0.0174941 seconds
+********a: -2.54387
+********New psi: 0.8
+2.09715
+Iteration: 6/150 ---------------------------
+Expected cost over samples: -6.09208
+min cost: -18.0048
+%%%%%%%%%E1_hat: 0.0827676
+ESS: 714.454 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.180687 traceCovElite~=1.23162 R2=0.0350776 H(w)=6.94829 perp=1041.37 w_max=0.00805468
+--------Variance: 0.00382517
+Sum of |delta_u|: 0.0415462
+Post-update R2: 0.0210503
+Final cost after weighting: 1.808859
+E1_hat_1: 0.0827676
+PI step 6 time: 0.0196414 seconds
+********a: -2.49172
+********New psi: 0.8
+1.67772
+Iteration: 7/150 ---------------------------
+Expected cost over samples: -5.41411
+min cost: -19.0298
+%%%%%%%%%E1_hat: 0.0283571
+ESS: 441.24 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.308226 traceCovElite~=1.25387 R2=0.0623609 H(w)=6.77132 perp=872.461 w_max=0.0235097
+--------Variance: 0.006953
+Sum of |delta_u|: 0.0743619
+Post-update R2: 0.000449721
+Final cost after weighting: 1.364457
+E1_hat_1: 0.0283571
+PI step 7 time: 0.0198301 seconds
+********a: -3.56288
+********New psi: 0.8
+1.34218
+Iteration: 8/150 ---------------------------
+Expected cost over samples: -5.79772
+min cost: -16.4396
+%%%%%%%%%E1_hat: 0.0346154
+ESS: 359.54 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.384038 traceCovElite~=1.26362 R2=0.0882222 H(w)=6.63489 perp=761.197 w_max=0.0192593
+--------Variance: 0.00606973
+Sum of |delta_u|: 0.095666
+Post-update R2: 0.025425
+Final cost after weighting: 1.692100
+E1_hat_1: 0.0346154
+PI step 8 time: 0.0182316 seconds
+********a: -3.36346
+********New psi: 0.8
+1.07374
+Iteration: 9/150 ---------------------------
+Expected cost over samples: -4.94086
+min cost: -14.6288
+%%%%%%%%%E1_hat: 0.0237385
+ESS: 319.568 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.237963 traceCovElite~=1.29881 R2=0.0637681 H(w)=6.5259 perp=682.597 w_max=0.0280838
+--------Variance: 0.00522747
+Sum of |delta_u|: 0.0644195
+Post-update R2: 0.0717178
+Final cost after weighting: 0.772199
+E1_hat_1: 0.0237385
+PI step 9 time: 0.0163119 seconds
+********a: -3.74066
+********New psi: 0.8
+0.858993
+Iteration: 10/150 ---------------------------
+Expected cost over samples: -5.34249
+min cost: -13.7549
+%%%%%%%%%E1_hat: 0.0184748
+ESS: 241.626 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.325667 traceCovElite~=1.20415 R2=0.0311403 H(w)=6.38981 perp=595.745 w_max=0.0360852
+--------Variance: 0.0051722
+Sum of |delta_u|: 0.0816148
+Post-update R2: 0.0931578
+Final cost after weighting: 0.179352
+E1_hat_1: 0.0184748
+PI step 10 time: 0.017035 seconds
+********a: -3.99135
+********New psi: 0.8
+0.687195
+Iteration: 11/150 ---------------------------
+Expected cost over samples: -5.98431
+min cost: -13.9657
+%%%%%%%%%E1_hat: 0.00867389
+ESS: 97.5169 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.723054 traceCovElite~=1.15678 R2=0.0266822 H(w)=6.09336 perp=442.906 w_max=0.076859
+--------Variance: 0.0137379
+Sum of |delta_u|: 0.168721
+Post-update R2: 0.0747293
+Final cost after weighting: -0.106003
+E1_hat_1: 0.00867389
+PI step 11 time: 0.0168968 seconds
+********a: -4.74744
+********New psi: 0.8
+0.549756
+Iteration: 12/150 ---------------------------
+Expected cost over samples: -5.6802
+min cost: -12.7185
+%%%%%%%%%E1_hat: 0.00761264
+ESS: 63.7679 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.844774 traceCovElite~=1.08685 R2=0.000819879 H(w)=5.73255 perp=308.755 w_max=0.0875737
+--------Variance: 0.0156563
+Sum of |delta_u|: 0.224693
+Post-update R2: 0.00377614
+Final cost after weighting: -0.547896
+E1_hat_1: 0.00761264
+PI step 12 time: 0.0171637 seconds
+********a: -4.87795
+********New psi: 0.8
+0.439805
+Iteration: 13/150 ---------------------------
+Expected cost over samples: -7.27895
+min cost: -13.3915
+%%%%%%%%%E1_hat: 0.00488967
+ESS: 36.5389 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.17647 traceCovElite~=1.11605 R2=0.00110777 H(w)=5.4225 perp=226.444 w_max=0.136342
+--------Variance: 0.0211032
+Sum of |delta_u|: 0.251153
+Post-update R2: 0.0220288
+Final cost after weighting: -0.744424
+E1_hat_1: 0.00488967
+PI step 13 time: 0.0167603 seconds
+********a: -5.32063
+********New psi: 0.8
+0.351844
+Iteration: 14/150 ---------------------------
+Expected cost over samples: -7.88312
+min cost: -12.653
+%%%%%%%%%E1_hat: 0.00797604
+ESS: 70.1649 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.655773 traceCovElite~=1.04572 R2=0.00231751 H(w)=5.56519 perp=261.175 w_max=0.0835836
+--------Variance: 0.00778487
+Sum of |delta_u|: 0.180269
+Post-update R2: 0.000932589
+Final cost after weighting: -1.264021
+E1_hat_1: 0.00797604
+PI step 14 time: 0.0168264 seconds
+********a: -4.83131
+********New psi: 0.8
+0.281475
+Iteration: 15/150 ---------------------------
+Expected cost over samples: -7.55892
+min cost: -11.0494
+%%%%%%%%%E1_hat: 0.0188921
+ESS: 145.139 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.701107 traceCovElite~=1.07942 R2=0.00548721 H(w)=5.74272 perp=311.911 w_max=0.0352881
+--------Variance: 0.00254635
+Sum of |delta_u|: 0.160181
+Post-update R2: 0.0137344
+Final cost after weighting: -1.969201
+E1_hat_1: 0.0188921
+PI step 15 time: 0.0167532 seconds
+********a: -3.96901
+********New psi: 0.8
+0.22518
+Iteration: 16/150 ---------------------------
+Expected cost over samples: -8.75365
+min cost: -11.863
+%%%%%%%%%E1_hat: 0.00999449
+ESS: 101.995 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.354195 traceCovElite~=1.00914 R2=0.0413626 H(w)=5.73032 perp=308.068 w_max=0.0667034
+--------Variance: 0.00270779
+Sum of |delta_u|: 0.0741501
+Post-update R2: 0.00646657
+Final cost after weighting: -2.213985
+E1_hat_1: 0.00999449
+PI step 16 time: 0.016991 seconds
+********a: -4.60572
+********New psi: 0.8
+0.180144
+Iteration: 17/150 ---------------------------
+Expected cost over samples: -8.97763
+min cost: -12.4151
+%%%%%%%%%E1_hat: 0.00188562
+ESS: 7.70846 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.34851 traceCovElite~=0.94127 R2=0.0585454 H(w)=4.23984 perp=69.3967 w_max=0.353554
+--------Variance: 0.0439038
+Sum of |delta_u|: 0.349031
+Post-update R2: 0.013653
+Final cost after weighting: -0.976245
+E1_hat_1: 0.00188562
+PI step 17 time: 0.0167772 seconds
+********a: -6.2735
+********New psi: 0.8
+0.144115
+Iteration: 18/150 ---------------------------
+Expected cost over samples: -10.2118
+min cost: -13.3104
+%%%%%%%%%E1_hat: 0.00216465
+ESS: 9.64705 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.58366 traceCovElite~=0.988158 R2=0.0132458 H(w)=3.9819 perp=53.6191 w_max=0.30798
+--------Variance: 0.0197425
+Sum of |delta_u|: 0.361244
+Post-update R2: 0.0327272
+Final cost after weighting: -2.271830
+E1_hat_1: 0.00216465
+PI step 18 time: 0.01755 seconds
+********a: -6.1355
+********New psi: 0.8
+0.115292
+Iteration: 19/150 ---------------------------
+Expected cost over samples: -9.31334
+min cost: -11.4153
+%%%%%%%%%E1_hat: 0.00613032
+ESS: 47.3667 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.1714 traceCovElite~=0.944566 R2=0.0392551 H(w)=5.00465 perp=149.105 w_max=0.108749
+--------Variance: 0.00388113
+Sum of |delta_u|: 0.271158
+Post-update R2: 0.076592
+Final cost after weighting: -2.802410
+E1_hat_1: 0.00613032
+PI step 19 time: 0.0176798 seconds
+********a: -5.09451
+********New psi: 0.8
+0.0922337
+Iteration: 20/150 ---------------------------
+Expected cost over samples: -10.4921
+min cost: -12.3093
+%%%%%%%%%E1_hat: 0.00536623
+ESS: 33.4271 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.589155 traceCovElite~=0.876173 R2=0.0695527 H(w)=4.93867 perp=139.584 w_max=0.124234
+--------Variance: 0.00708926
+Sum of |delta_u|: 0.153011
+Post-update R2: 0.00611923
+Final cost after weighting: -2.680616
+E1_hat_1: 0.00536623
+PI step 20 time: 0.0177157 seconds
+********a: -5.22763
+********New psi: 0.8
+0.073787
+Iteration: 21/150 ---------------------------
+Expected cost over samples: -10.2458
+min cost: -11.5174
+%%%%%%%%%E1_hat: 0.0269691
+ESS: 121.837 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.553298 traceCovElite~=0.872649 R2=0.0728765 H(w)=5.38276 perp=217.622 w_max=0.0247196
+--------Variance: 0.000503061
+Sum of |delta_u|: 0.122607
+Post-update R2: 0.0368424
+Final cost after weighting: -2.913589
+E1_hat_1: 0.0269691
+PI step 21 time: 0.0170405 seconds
+********a: -3.61306
+********New psi: 0.8
+0.0590296
+Iteration: 22/150 ---------------------------
+Expected cost over samples: -10.6389
+min cost: -11.8788
+%%%%%%%%%E1_hat: 0.0194198
+ESS: 109.362 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.398179 traceCovElite~=0.816278 R2=0.113734 H(w)=5.26065 perp=192.607 w_max=0.0343293
+--------Variance: 0.000426217
+Sum of |delta_u|: 0.0876579
+Post-update R2: 0.0453878
+Final cost after weighting: -2.944783
+E1_hat_1: 0.0194198
+PI step 22 time: 0.0162617 seconds
+********a: -3.94146
+********New psi: 0.8
+0.0472237
+Iteration: 23/150 ---------------------------
+Expected cost over samples: -10.835
+min cost: -11.9074
+%%%%%%%%%E1_hat: 0.0217435
+ESS: 104.359 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.352865 traceCovElite~=0.77579 R2=0.0867683 H(w)=5.14761 perp=172.02 w_max=0.0306605
+--------Variance: 0.000395678
+Sum of |delta_u|: 0.0875329
+Post-update R2: 0.0153123
+Final cost after weighting: -2.940054
+E1_hat_1: 0.0217435
+PI step 23 time: 0.0160637 seconds
+********a: -3.82844
+********New psi: 0.8
+0.0377789
+Iteration: 24/150 ---------------------------
+Expected cost over samples: -10.9236
+min cost: -11.8732
+%%%%%%%%%E1_hat: 0.0152142
+ESS: 87.7055 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.273509 traceCovElite~=0.870618 R2=0.0929702 H(w)=5.02409 perp=152.031 w_max=0.0438188
+--------Variance: 0.00042125
+Sum of |delta_u|: 0.0657165
+Post-update R2: 0.0411082
+Final cost after weighting: -2.961262
+E1_hat_1: 0.0152142
+PI step 24 time: 0.0161342 seconds
+********a: -4.18553
+********New psi: 0.8
+0.0302231
+Iteration: 25/150 ---------------------------
+Expected cost over samples: -11.0197
+min cost: -11.8861
+%%%%%%%%%E1_hat: 0.0163076
+ESS: 65.8832 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.349491 traceCovElite~=0.848231 R2=0.0704842 H(w)=4.66233 perp=105.883 w_max=0.0408808
+--------Variance: 0.000379942
+Sum of |delta_u|: 0.0746237
+Post-update R2: 0.0350098
+Final cost after weighting: -2.963947
+E1_hat_1: 0.0163076
+PI step 25 time: 0.0168573 seconds
+********a: -4.11613
+********New psi: 0.8
+0.0241785
+Iteration: 26/150 ---------------------------
+Expected cost over samples: -11.2462
+min cost: -12.0342
+%%%%%%%%%E1_hat: 0.0113918
+ESS: 47.6707 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.584896 traceCovElite~=0.868385 R2=0.0702674 H(w)=4.4464 perp=85.319 w_max=0.0585215
+--------Variance: 0.000470498
+Sum of |delta_u|: 0.134561
+Post-update R2: 0.0365417
+Final cost after weighting: -2.963845
+E1_hat_1: 0.0113918
+PI step 26 time: 0.0165716 seconds
+********a: -4.47486
+********New psi: 0.8
+0.0193428
+Iteration: 27/150 ---------------------------
+Expected cost over samples: -11.3559
+min cost: -12.0866
+%%%%%%%%%E1_hat: 0.00345056
+ESS: 19.0594 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.0186 traceCovElite~=0.860031 R2=0.0823237 H(w)=4.01816 perp=55.5987 w_max=0.193205
+--------Variance: 0.00155826
+Sum of |delta_u|: 0.263356
+Post-update R2: 0.015344
+Final cost after weighting: -2.953666
+E1_hat_1: 0.00345056
+PI step 27 time: 0.0163332 seconds
+********a: -5.66922
+********New psi: 0.8
+0.0154743
+Iteration: 28/150 ---------------------------
+Expected cost over samples: -11.4405
+min cost: -12.0712
+%%%%%%%%%E1_hat: 0.00445842
+ESS: 16.0765 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.35773 traceCovElite~=0.837808 R2=0.0790327 H(w)=3.57118 perp=35.5584 w_max=0.14953
+--------Variance: 0.000978388
+Sum of |delta_u|: 0.304338
+Post-update R2: 0.0265032
+Final cost after weighting: -2.968856
+E1_hat_1: 0.00445842
+PI step 28 time: 0.0165466 seconds
+********a: -5.41296
+********New psi: 0.8
+0.0123794
+Iteration: 29/150 ---------------------------
+Expected cost over samples: -11.2546
+min cost: -11.8275
+%%%%%%%%%E1_hat: 0.00261528
+ESS: 11.0577 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.2342 traceCovElite~=0.830708 R2=0.0954828 H(w)=3.41706 perp=30.4798 w_max=0.254912
+--------Variance: 0.00127859
+Sum of |delta_u|: 0.326539
+Post-update R2: 0.030912
+Final cost after weighting: -2.979285
+E1_hat_1: 0.00261528
+PI step 29 time: 0.0169158 seconds
+********a: -5.94639
+********New psi: 0.8
+0.00990352
+Iteration: 30/150 ---------------------------
+Expected cost over samples: -11.428
+min cost: -11.9534
+%%%%%%%%%E1_hat: 0.00574296
+ESS: 22.7205 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.880571 traceCovElite~=0.782321 R2=0.0845313 H(w)=3.67212 perp=39.3351 w_max=0.116084
+--------Variance: 0.000314521
+Sum of |delta_u|: 0.205031
+Post-update R2: 0.0455898
+Final cost after weighting: -2.982166
+E1_hat_1: 0.00574296
+PI step 30 time: 0.016191 seconds
+********a: -5.15978
+********New psi: 0.8
+0.00792282
+Iteration: 31/150 ---------------------------
+Expected cost over samples: -11.4439
+min cost: -11.8928
+%%%%%%%%%E1_hat: 0.00525327
+ESS: 18.1425 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.948075 traceCovElite~=0.822683 R2=0.0881635 H(w)=3.37654 perp=29.2694 w_max=0.126905
+--------Variance: 0.000277122
+Sum of |delta_u|: 0.215369
+Post-update R2: 0.0637782
+Final cost after weighting: -2.985312
+E1_hat_1: 0.00525327
+PI step 31 time: 0.0148902 seconds
+********a: -5.24891
+********New psi: 0.8
+0.00633825
+Iteration: 32/150 ---------------------------
+Expected cost over samples: -11.5768
+min cost: -11.9793
+%%%%%%%%%E1_hat: 0.00263076
+ESS: 9.27835 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.20776 traceCovElite~=0.850442 R2=0.0880495 H(w)=2.95948 perp=19.2879 w_max=0.253412
+--------Variance: 0.000537167
+Sum of |delta_u|: 0.240721
+Post-update R2: 0.0839401
+Final cost after weighting: -2.989756
+E1_hat_1: 0.00263076
+PI step 32 time: 0.0177355 seconds
+********a: -5.94048
+********New psi: 0.8
+0.0050706
+Iteration: 33/150 ---------------------------
+Expected cost over samples: -11.667
+min cost: -12.0477
+%%%%%%%%%E1_hat: 0.00211803
+ESS: 6.01988 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.84233 traceCovElite~=0.842916 R2=0.0832605 H(w)=2.35949 perp=10.5856 w_max=0.314758
+--------Variance: 0.00130186
+Sum of |delta_u|: 0.422605
+Post-update R2: 0.0278808
+Final cost after weighting: -2.979658
+E1_hat_1: 0.00211803
+PI step 33 time: 0.0157638 seconds
+********a: -6.15727
+********New psi: 0.8
+0.00405648
+Iteration: 34/150 ---------------------------
+Expected cost over samples: -11.9839
+min cost: -12.3397
+%%%%%%%%%E1_hat: 0.00126046
+ESS: 3.2942 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.70173 traceCovElite~=0.804719 R2=0.0637718 H(w)=2.0578 perp=7.82872 w_max=0.528907
+--------Variance: 0.00231789
+Sum of |delta_u|: 0.656383
+Post-update R2: 0.0336772
+Final cost after weighting: -2.977116
+E1_hat_1: 0.00126046
+PI step 34 time: 0.0162019 seconds
+********a: -6.67628
+********New psi: 0.8
+0.00324519
+Iteration: 35/150 ---------------------------
+Expected cost over samples: -11.9489
+min cost: -12.2726
+%%%%%%%%%E1_hat: 0.00104946
+ESS: 2.02507 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.20581 traceCovElite~=0.801966 R2=0.0951782 H(w)=0.988295 perp=2.68665 w_max=0.635245
+--------Variance: 0.00229647
+Sum of |delta_u|: 0.769039
+Post-update R2: 0.0560061
+Final cost after weighting: -2.979316
+E1_hat_1: 0.00104946
+PI step 35 time: 0.0161953 seconds
+********a: -6.85948
+********New psi: 0.8
+0.00259615
+Iteration: 36/150 ---------------------------
+Expected cost over samples: -11.7498
+min cost: -12.0204
+%%%%%%%%%E1_hat: 0.00152955
+ESS: 4.3096 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.86793 traceCovElite~=0.8205 R2=0.0804944 H(w)=2.17339 perp=8.78806 w_max=0.435857
+--------Variance: 0.000801568
+Sum of |delta_u|: 0.454071
+Post-update R2: 0.0570904
+Final cost after weighting: -2.980620
+E1_hat_1: 0.00152955
+PI step 36 time: 0.0155016 seconds
+********a: -6.48278
+********New psi: 0.8
+0.00207692
+Iteration: 37/150 ---------------------------
+Expected cost over samples: -11.6214
+min cost: -11.8722
+%%%%%%%%%E1_hat: 0.000742608
+ESS: 1.23782 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.08522 traceCovElite~=0.816506 R2=0.0519528 H(w)=0.536894 perp=1.71069 w_max=0.897737
+--------Variance: 0.00305062
+Sum of |delta_u|: 0.940245
+Post-update R2: 0.00153583
+Final cost after weighting: -2.974170
+E1_hat_1: 0.000742608
+PI step 37 time: 0.0158887 seconds
+********a: -7.20534
+********New psi: 0.8
+0.00166153
+Iteration: 38/150 ---------------------------
+Expected cost over samples: -12.0024
+min cost: -12.2242
+%%%%%%%%%E1_hat: 0.000814699
+ESS: 1.4644 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.493 traceCovElite~=0.803691 R2=0.105949 H(w)=0.722391 perp=2.05935 w_max=0.818299
+--------Variance: 0.00177246
+Sum of |delta_u|: 0.891275
+Post-update R2: 0.0695475
+Final cost after weighting: -2.974991
+E1_hat_1: 0.000814699
+PI step 38 time: 0.0153347 seconds
+********a: -7.11269
+********New psi: 0.8
+0.00132923
+Iteration: 39/150 ---------------------------
+Expected cost over samples: -11.7334
+min cost: -11.9393
+%%%%%%%%%E1_hat: 0.000681083
+ESS: 1.04361 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.82537 traceCovElite~=0.850401 R2=0.052973 H(w)=0.147671 perp=1.15913 w_max=0.978833
+--------Variance: 0.00175903
+Sum of |delta_u|: 0.7994
+Post-update R2: 0.0403979
+Final cost after weighting: -2.974829
+E1_hat_1: 0.000681083
+PI step 39 time: 0.0154499 seconds
+********a: -7.29183
+********New psi: 0.8
+0.00106338
+Iteration: 40/150 ---------------------------
+Expected cost over samples: -11.6764
+min cost: -11.8371
+%%%%%%%%%E1_hat: 0.00170824
+ESS: 4.91099 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.05139 traceCovElite~=0.858503 R2=0.0818721 H(w)=2.05475 perp=7.80487 w_max=0.390266
+--------Variance: 0.000143163
+Sum of |delta_u|: 0.237376
+Post-update R2: 0.0475079
+Final cost after weighting: -2.990743
+E1_hat_1: 0.00170824
+PI step 40 time: 0.0150712 seconds
+********a: -6.37229
+********New psi: 0.8
+0.000850706
+Iteration: 41/150 ---------------------------
+Expected cost over samples: -11.7693
+min cost: -11.9198
+%%%%%%%%%E1_hat: 0.000937055
+ESS: 1.9139 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.72888 traceCovElite~=0.817059 R2=0.075184 H(w)=1.16332 perp=3.20056 w_max=0.711449
+--------Variance: 0.000542823
+Sum of |delta_u|: 0.660296
+Post-update R2: 0.0117758
+Final cost after weighting: -2.986012
+E1_hat_1: 0.000937055
+PI step 41 time: 0.0154917 seconds
+********a: -6.97277
+********New psi: 0.8
+0.000680565
+Iteration: 42/150 ---------------------------
+Expected cost over samples: -11.8714
+min cost: -12.0092
+%%%%%%%%%E1_hat: 0.000684704
+ESS: 1.05458 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.52642 traceCovElite~=0.793964 R2=0.0760004 H(w)=0.156279 perp=1.16915 w_max=0.973657
+--------Variance: 0.000389557
+Sum of |delta_u|: 0.651144
+Post-update R2: 0.0507158
+Final cost after weighting: -2.993852
+E1_hat_1: 0.000684704
+PI step 42 time: 0.0151063 seconds
+********a: -7.28652
+********New psi: 0.8
+0.000544452
+Iteration: 43/150 ---------------------------
+Expected cost over samples: -11.9496
+min cost: -12.0619
+%%%%%%%%%E1_hat: 0.000978719
+ESS: 2.02417 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.19999 traceCovElite~=0.818239 R2=0.0846205 H(w)=1.14123 perp=3.13061 w_max=0.681163
+--------Variance: 6.56444e-05
+Sum of |delta_u|: 0.260725
+Post-update R2: 0.0542199
+Final cost after weighting: -2.993114
+E1_hat_1: 0.000978719
+PI step 43 time: 0.0150297 seconds
+********a: -6.92927
+********New psi: 0.8
+0.000435561
+Iteration: 44/150 ---------------------------
+Expected cost over samples: -11.9997
+min cost: -12.1059
+%%%%%%%%%E1_hat: 0.000829908
+ESS: 1.51881 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.5921 traceCovElite~=0.811814 R2=0.0825616 H(w)=0.818467 perp=2.26702 w_max=0.803302
+--------Variance: 0.000233411
+Sum of |delta_u|: 0.677692
+Post-update R2: 0.0307439
+Final cost after weighting: -2.992800
+E1_hat_1: 0.000829908
+PI step 44 time: 0.0153611 seconds
+********a: -7.0942
+********New psi: 0.8
+0.000348449
+Iteration: 45/150 ---------------------------
+Expected cost over samples: -11.933
+min cost: -12.0317
+%%%%%%%%%E1_hat: 0.000668639
+ESS: 1.00592 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.03437 traceCovElite~=0.862096 R2=0.0641069 H(w)=0.0244883 perp=1.02479 w_max=0.997051
+--------Variance: 0.000291295
+Sum of |delta_u|: 0.65607
+Post-update R2: 0.0109027
+Final cost after weighting: -2.995714
+E1_hat_1: 0.000668639
+PI step 45 time: 0.0158043 seconds
+********a: -7.31027
+********New psi: 0.8
+0.000278759
+Iteration: 46/150 ---------------------------
+Expected cost over samples: -11.9448
+min cost: -12.0313
+%%%%%%%%%E1_hat: 0.000755322
+ESS: 1.26434 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.26348 traceCovElite~=0.843081 R2=0.0668492 H(w)=0.401463 perp=1.49401 w_max=0.882626
+--------Variance: 0.000445509
+Sum of |delta_u|: 1.09144
+Post-update R2: 0.0238227
+Final cost after weighting: -2.994082
+E1_hat_1: 0.000755322
+PI step 46 time: 0.0149472 seconds
+********a: -7.18837
+********New psi: 0.8
+0.000223007
+Iteration: 47/150 ---------------------------
+Expected cost over samples: -11.9146
+min cost: -11.9901
+%%%%%%%%%E1_hat: 0.000688865
+ESS: 1.06743 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.7487 traceCovElite~=0.799052 R2=0.0724245 H(w)=0.196601 perp=1.21726 w_max=0.967775
+--------Variance: 0.000288061
+Sum of |delta_u|: 0.940546
+Post-update R2: 0.00402149
+Final cost after weighting: -2.991199
+E1_hat_1: 0.000688865
+PI step 47 time: 0.0166822 seconds
+********a: -7.28046
+********New psi: 0.8
+0.000178406
+Iteration: 48/150 ---------------------------
+Expected cost over samples: -12.0203
+min cost: -12.0888
+%%%%%%%%%E1_hat: 0.00067356
+ESS: 1.02072 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.55669 traceCovElite~=0.833201 R2=0.0743673 H(w)=0.0647208 perp=1.06686 w_max=0.989766
+--------Variance: 0.000204493
+Sum of |delta_u|: 0.928385
+Post-update R2: 0.00905492
+Final cost after weighting: -2.990986
+E1_hat_1: 0.00067356
+PI step 48 time: 0.0158063 seconds
+********a: -7.30293
+********New psi: 0.8
+0.000142725
+Iteration: 49/150 ---------------------------
+Expected cost over samples: -11.9551
+min cost: -12.0189
+%%%%%%%%%E1_hat: 0.000679607
+ESS: 1.03895 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.4681 traceCovElite~=0.830589 R2=0.0767471 H(w)=0.107738 perp=1.11376 w_max=0.980959
+--------Variance: 0.000156038
+Sum of |delta_u|: 0.839339
+Post-update R2: 0.0382016
+Final cost after weighting: -2.994517
+E1_hat_1: 0.000679607
+PI step 49 time: 0.0151829 seconds
+********a: -7.294
+********New psi: 0.8
+0.00011418
+Iteration: 50/150 ---------------------------
+Expected cost over samples: -11.998
+min cost: -12.0532
+%%%%%%%%%E1_hat: 0.000678496
+ESS: 1.03548 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.3739 traceCovElite~=0.799554 R2=0.069928 H(w)=0.0892128 perp=1.09331 w_max=0.982566
+--------Variance: 0.00011781
+Sum of |delta_u|: 0.784143
+Post-update R2: 0.0232189
+Final cost after weighting: -2.996218
+E1_hat_1: 0.000678496
+PI step 50 time: 0.015606 seconds
+********a: -7.29563
+********New psi: 0.8
+9.13439e-05
+Iteration: 51/150 ---------------------------
+Expected cost over samples: -12.0898
+min cost: -12.1407
+%%%%%%%%%E1_hat: 0.000709025
+ESS: 1.12657 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.82959 traceCovElite~=0.78842 R2=0.092724 H(w)=0.226627 perp=1.25436 w_max=0.940258
+--------Variance: 6.8069e-05
+Sum of |delta_u|: 0.68908
+Post-update R2: 0.0298767
+Final cost after weighting: -2.997422
+E1_hat_1: 0.000709025
+PI step 51 time: 0.0156324 seconds
+********a: -7.25162
+********New psi: 0.8
+7.30751e-05
+Iteration: 52/150 ---------------------------
+Expected cost over samples: -12.09
+min cost: -12.1353
+%%%%%%%%%E1_hat: 0.000960257
+ESS: 1.83007 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.70653 traceCovElite~=0.806384 R2=0.0620119 H(w)=0.766636 perp=2.15251 w_max=0.694258
+--------Variance: 3.67746e-05
+Sum of |delta_u|: 0.658396
+Post-update R2: 0.0110248
+Final cost after weighting: -2.997920
+E1_hat_1: 0.000960257
+PI step 52 time: 0.0154806 seconds
+********a: -6.94831
+********New psi: 0.8
+5.84601e-05
+Iteration: 53/150 ---------------------------
+Expected cost over samples: -12.0758
+min cost: -12.1158
+%%%%%%%%%E1_hat: 0.000667008
+ESS: 1.00102 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.21343 traceCovElite~=0.806999 R2=0.10552 H(w)=0.00454219 perp=1.00455 w_max=0.999488
+--------Variance: 5.48938e-05
+Sum of |delta_u|: 0.783352
+Post-update R2: 0.0644286
+Final cost after weighting: -2.998064
+E1_hat_1: 0.000667008
+PI step 53 time: 0.0154096 seconds
+********a: -7.31271
+********New psi: 0.8
+4.67681e-05
+Iteration: 54/150 ---------------------------
+Expected cost over samples: -12.0698
+min cost: -12.1041
+%%%%%%%%%E1_hat: 0.000743978
+ESS: 1.23683 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.04996 traceCovElite~=0.80575 R2=0.0718456 H(w)=0.432347 perp=1.54087 w_max=0.896084
+--------Variance: 1.81644e-05
+Sum of |delta_u|: 0.493404
+Post-update R2: 0.037752
+Final cost after weighting: -2.997308
+E1_hat_1: 0.000743978
+PI step 54 time: 0.0153805 seconds
+********a: -7.2035
+********New psi: 0.8
+3.74144e-05
+Iteration: 55/150 ---------------------------
+Expected cost over samples: -12.0643
+min cost: -12.095
+%%%%%%%%%E1_hat: 0.000716014
+ESS: 1.14724 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.94491 traceCovElite~=0.799345 R2=0.0741184 H(w)=0.250942 perp=1.28524 w_max=0.931081
+--------Variance: 2.93214e-05
+Sum of |delta_u|: 0.644175
+Post-update R2: 0.0437929
+Final cost after weighting: -2.998165
+E1_hat_1: 0.000716014
+PI step 55 time: 0.0155815 seconds
+********a: -7.24181
+********New psi: 0.8
+2.99316e-05
+Iteration: 56/150 ---------------------------
+Expected cost over samples: -12.0838
+min cost: -12.1126
+%%%%%%%%%E1_hat: 0.000733273
+ESS: 1.19785 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.45947 traceCovElite~=0.871874 R2=0.0677212 H(w)=0.304497 perp=1.35594 w_max=0.909166
+--------Variance: 3.30523e-05
+Sum of |delta_u|: 0.869806
+Post-update R2: 0.0217917
+Final cost after weighting: -2.998910
+E1_hat_1: 0.000733273
+PI step 56 time: 0.0154147 seconds
+********a: -7.21799
+********New psi: 0.8
+2.39452e-05
+Iteration: 57/150 ---------------------------
+Expected cost over samples: -12.0733
+min cost: -12.099
+%%%%%%%%%E1_hat: 0.000666668
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.62059 traceCovElite~=0.833708 R2=0.104132 H(w)=2.43054e-05 perp=1.00002 w_max=0.999998
+--------Variance: 1.49467e-05
+Sum of |delta_u|: 0.671867
+Post-update R2: 0.0421775
+Final cost after weighting: -2.998862
+E1_hat_1: 0.000666668
+PI step 57 time: 0.0152333 seconds
+********a: -7.31322
+********New psi: 0.8
+1.91562e-05
+Iteration: 58/150 ---------------------------
+Expected cost over samples: -12.0311
+min cost: -12.0529
+%%%%%%%%%E1_hat: 0.000669038
+ESS: 1.00711 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.52772 traceCovElite~=0.823515 R2=0.0626702 H(w)=0.0239733 perp=1.02426 w_max=0.996456
+--------Variance: 2.1683e-05
+Sum of |delta_u|: 0.868266
+Post-update R2: 0.0283979
+Final cost after weighting: -2.998545
+E1_hat_1: 0.000669038
+PI step 58 time: 0.0158138 seconds
+********a: -7.30967
+********New psi: 0.8
+1.5325e-05
+Iteration: 59/150 ---------------------------
+Expected cost over samples: -12.0261
+min cost: -12.0466
+%%%%%%%%%E1_hat: 0.000682186
+ESS: 1.04679 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.9922 traceCovElite~=0.80975 R2=0.077456 H(w)=0.123133 perp=1.13104 w_max=0.977251
+--------Variance: 5.58343e-06
+Sum of |delta_u|: 0.463694
+Post-update R2: 0.0449534
+Final cost after weighting: -2.998944
+E1_hat_1: 0.000682186
+PI step 59 time: 0.0156169 seconds
+********a: -7.29021
+********New psi: 0.8
+1.226e-05
+Iteration: 60/150 ---------------------------
+Expected cost over samples: -12.0281
+min cost: -12.046
+%%%%%%%%%E1_hat: 0.00066668
+ESS: 1.00004 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.42729 traceCovElite~=0.817404 R2=0.0923662 H(w)=0.000242989 perp=1.00024 w_max=0.999981
+--------Variance: 6.56638e-06
+Sum of |delta_u|: 0.584513
+Post-update R2: 0.0424978
+Final cost after weighting: -2.999057
+E1_hat_1: 0.00066668
+PI step 60 time: 0.0161432 seconds
+********a: -7.3132
+********New psi: 0.8
+9.80797e-06
+Iteration: 61/150 ---------------------------
+Expected cost over samples: -12.0244
+min cost: -12.0409
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.98372 traceCovElite~=0.815153 R2=0.0870564 H(w)=1.75441e-05 perp=1.00002 w_max=0.999999
+--------Variance: 3.50862e-06
+Sum of |delta_u|: 0.504974
+Post-update R2: 0.0714351
+Final cost after weighting: -2.999125
+E1_hat_1: 0.000666667
+PI step 61 time: 0.015694 seconds
+********a: -7.31322
+********New psi: 0.8
+7.84638e-06
+Iteration: 62/150 ---------------------------
+Expected cost over samples: -12.0246
+min cost: -12.039
+%%%%%%%%%E1_hat: 0.000784651
+ESS: 1.3443 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.84228 traceCovElite~=0.814104 R2=0.0751379 H(w)=0.435034 perp=1.54502 w_max=0.849635
+--------Variance: 1.96345e-06
+Sum of |delta_u|: 0.430477
+Post-update R2: 0.0651844
+Final cost after weighting: -2.998837
+E1_hat_1: 0.000784651
+PI step 62 time: 0.0165082 seconds
+********a: -7.15027
+********New psi: 0.8
+6.2771e-06
+Iteration: 63/150 ---------------------------
+Expected cost over samples: -12.0139
+min cost: -12.0264
+%%%%%%%%%E1_hat: 0.000666997
+ESS: 1.00099 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.43772 traceCovElite~=0.83124 R2=0.0919299 H(w)=0.00431431 perp=1.00432 w_max=0.999504
+--------Variance: 3.39074e-06
+Sum of |delta_u|: 0.580838
+Post-update R2: 0.05154
+Final cost after weighting: -2.999118
+E1_hat_1: 0.000666997
+PI step 63 time: 0.0158189 seconds
+********a: -7.31272
+********New psi: 0.8
+5.02168e-06
+Iteration: 64/150 ---------------------------
+Expected cost over samples: -12.0082
+min cost: -12.0196
+%%%%%%%%%E1_hat: 0.00111017
+ESS: 1.92588 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.04311 traceCovElite~=0.808418 R2=0.0966641 H(w)=0.681036 perp=1.97592 w_max=0.60051
+--------Variance: 1.6788e-06
+Sum of |delta_u|: 0.448783
+Post-update R2: 0.0586722
+Final cost after weighting: -2.999133
+E1_hat_1: 0.00111017
+PI step 64 time: 0.0161777 seconds
+********a: -6.80324
+********New psi: 0.8
+4.01735e-06
+Iteration: 65/150 ---------------------------
+Expected cost over samples: -12.0022
+min cost: -12.013
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.80852 traceCovElite~=0.882467 R2=0.0751405 H(w)=5.39854e-06 perp=1.00001 w_max=1
+--------Variance: 2.88067e-06
+Sum of |delta_u|: 0.726924
+Post-update R2: 0.0463521
+Final cost after weighting: -2.999334
+E1_hat_1: 0.000666667
+PI step 65 time: 0.0169541 seconds
+********a: -7.31322
+********New psi: 0.8
+3.21388e-06
+Iteration: 66/150 ---------------------------
+Expected cost over samples: -11.9962
+min cost: -12.0055
+%%%%%%%%%E1_hat: 0.000666733
+ESS: 1.0002 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.35726 traceCovElite~=0.804551 R2=0.0899704 H(w)=0.00103231 perp=1.00103 w_max=0.9999
+--------Variance: 3.29324e-06
+Sum of |delta_u|: 0.77023
+Post-update R2: 0.0353151
+Final cost after weighting: -2.999290
+E1_hat_1: 0.000666733
+PI step 66 time: 0.0195974 seconds
+********a: -7.31312
+********New psi: 0.8
+2.5711e-06
+Iteration: 67/150 ---------------------------
+Expected cost over samples: -11.9832
+min cost: -11.9913
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.46705 traceCovElite~=0.815608 R2=0.0705974 H(w)=1.87796e-09 perp=1 w_max=1
+--------Variance: 2.80946e-06
+Sum of |delta_u|: 0.834103
+Post-update R2: 0.0274263
+Final cost after weighting: -2.999334
+E1_hat_1: 0.000666667
+PI step 67 time: 0.0252767 seconds
+********a: -7.31322
+********New psi: 0.8
+2.05688e-06
+Iteration: 68/150 ---------------------------
+Expected cost over samples: -11.9796
+min cost: -11.9871
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.02886 traceCovElite~=0.820706 R2=0.0603035 H(w)=1.68114e-22 perp=1 w_max=1
+--------Variance: 7.6967e-07
+Sum of |delta_u|: 0.465223
+Post-update R2: 0.0287027
+Final cost after weighting: -2.999389
+E1_hat_1: 0.000666667
+PI step 68 time: 0.0178988 seconds
+********a: -7.31322
+********New psi: 0.8
+1.6455e-06
+Iteration: 69/150 ---------------------------
+Expected cost over samples: -11.9845
+min cost: -11.9913
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.20312 traceCovElite~=0.781866 R2=0.0900357 H(w)=1.59938e-14 perp=1 w_max=1
+--------Variance: 7.26012e-07
+Sum of |delta_u|: 0.554648
+Post-update R2: 0.0592696
+Final cost after weighting: -2.999357
+E1_hat_1: 0.000666667
+PI step 69 time: 0.0158507 seconds
+********a: -7.31322
+********New psi: 0.8
+1.3164e-06
+Iteration: 70/150 ---------------------------
+Expected cost over samples: -11.9893
+min cost: -11.9954
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.16715 traceCovElite~=0.858229 R2=0.0858629 H(w)=2.69466e-07 perp=1 w_max=1
+--------Variance: 1.20041e-06
+Sum of |delta_u|: 0.670662
+Post-update R2: 0.0489293
+Final cost after weighting: -2.999362
+E1_hat_1: 0.000666667
+PI step 70 time: 0.0166815 seconds
+********a: -7.31322
+********New psi: 0.8
+1.05312e-06
+Iteration: 71/150 ---------------------------
+Expected cost over samples: -11.9925
+min cost: -11.9977
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.52643 traceCovElite~=0.810955 R2=0.090722 H(w)=4.6545e-07 perp=1 w_max=1
+--------Variance: 6.11082e-07
+Sum of |delta_u|: 0.647582
+Post-update R2: 0.0415007
+Final cost after weighting: -2.999463
+E1_hat_1: 0.000666667
+PI step 71 time: 0.0157641 seconds
+********a: -7.31322
+********New psi: 0.8
+8.42498e-07
+Iteration: 72/150 ---------------------------
+Expected cost over samples: -11.993
+min cost: -11.9977
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.23471 traceCovElite~=0.815692 R2=0.0930869 H(w)=4.41428e-14 perp=1 w_max=1
+--------Variance: 1.37338e-06
+Sum of |delta_u|: 0.92158
+Post-update R2: 0.0332721
+Final cost after weighting: -2.999453
+E1_hat_1: 0.000666667
+PI step 72 time: 0.0159507 seconds
+********a: -7.31322
+********New psi: 0.8
+6.73999e-07
+Iteration: 73/150 ---------------------------
+Expected cost over samples: -11.9848
+min cost: -11.9892
+%%%%%%%%%E1_hat: 0.000666678
+ESS: 1.00003 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.06364 traceCovElite~=0.790094 R2=0.102253 H(w)=0.000206221 perp=1.00021 w_max=0.999983
+--------Variance: 2.60933e-07
+Sum of |delta_u|: 0.502142
+Post-update R2: 0.0561631
+Final cost after weighting: -2.999573
+E1_hat_1: 0.000666678
+PI step 73 time: 0.0161474 seconds
+********a: -7.3132
+********New psi: 0.8
+5.39199e-07
+Iteration: 74/150 ---------------------------
+Expected cost over samples: -11.9834
+min cost: -11.987
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.21194 traceCovElite~=0.839346 R2=0.0874243 H(w)=1.32561e-09 perp=1 w_max=1
+--------Variance: 8.69543e-07
+Sum of |delta_u|: 0.996908
+Post-update R2: 0.0371846
+Final cost after weighting: -2.999449
+E1_hat_1: 0.000666667
+PI step 74 time: 0.0159798 seconds
+********a: -7.31322
+********New psi: 0.8
+4.31359e-07
+Iteration: 75/150 ---------------------------
+Expected cost over samples: -11.9784
+min cost: -11.9816
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.14803 traceCovElite~=0.810944 R2=0.0909272 H(w)=4.88666e-33 perp=1 w_max=1
+--------Variance: 3.88617e-07
+Sum of |delta_u|: 0.816644
+Post-update R2: 0.0288569
+Final cost after weighting: -2.999617
+E1_hat_1: 0.000666667
+PI step 75 time: 0.0161572 seconds
+********a: -7.31322
+********New psi: 0.8
+3.45087e-07
+Iteration: 76/150 ---------------------------
+Expected cost over samples: -11.9768
+min cost: -11.9798
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.68784 traceCovElite~=0.835128 R2=0.0666238 H(w)=5.48416e-42 perp=1 w_max=1
+--------Variance: 4.26656e-07
+Sum of |delta_u|: 0.886948
+Post-update R2: 0.0280866
+Final cost after weighting: -2.999651
+E1_hat_1: 0.000666667
+PI step 76 time: 0.0160861 seconds
+********a: -7.31322
+********New psi: 0.8
+2.7607e-07
+Iteration: 77/150 ---------------------------
+Expected cost over samples: -11.9781
+min cost: -11.9807
+%%%%%%%%%E1_hat: 0.00068145
+ESS: 1.04433 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.16473 traceCovElite~=0.835366 R2=0.0836505 H(w)=0.104696 perp=1.11037 w_max=0.978305
+--------Variance: 4.33277e-07
+Sum of |delta_u|: 0.938364
+Post-update R2: 0.0421784
+Final cost after weighting: -2.999597
+E1_hat_1: 0.00068145
+PI step 77 time: 0.0157627 seconds
+********a: -7.29129
+********New psi: 0.8
+2.20856e-07
+Iteration: 78/150 ---------------------------
+Expected cost over samples: -11.9839
+min cost: -11.9864
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.0482 traceCovElite~=0.802564 R2=0.0745586 H(w)=4.04567e-41 perp=1 w_max=1
+--------Variance: 3.29003e-07
+Sum of |delta_u|: 0.815895
+Post-update R2: 0.0494489
+Final cost after weighting: -2.999650
+E1_hat_1: 0.000666667
+PI step 78 time: 0.0158654 seconds
+********a: -7.31322
+********New psi: 0.8
+1.76685e-07
+Iteration: 79/150 ---------------------------
+Expected cost over samples: -11.9819
+min cost: -11.9841
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.70602 traceCovElite~=0.81365 R2=0.0638857 H(w)=3.69095e-55 perp=1 w_max=1
+--------Variance: 2.20596e-07
+Sum of |delta_u|: 0.853087
+Post-update R2: 0.0144302
+Final cost after weighting: -2.999654
+E1_hat_1: 0.000666667
+PI step 79 time: 0.0158443 seconds
+********a: -7.31322
+********New psi: 0.8
+1.41348e-07
+Iteration: 80/150 ---------------------------
+Expected cost over samples: -11.9841
+min cost: -11.986
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.55225 traceCovElite~=0.792154 R2=0.0956645 H(w)=6.67447e-41 perp=1 w_max=1
+--------Variance: 8.37032e-08
+Sum of |delta_u|: 0.551016
+Post-update R2: 0.0583826
+Final cost after weighting: -2.999651
+E1_hat_1: 0.000666667
+PI step 80 time: 0.0157293 seconds
+********a: -7.31322
+********New psi: 0.8
+1.13078e-07
+Iteration: 81/150 ---------------------------
+Expected cost over samples: -11.9834
+min cost: -11.9852
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.98909 traceCovElite~=0.815919 R2=0.0784557 H(w)=4.58268e-110 perp=1 w_max=1
+--------Variance: 9.18464e-08
+Sum of |delta_u|: 0.737501
+Post-update R2: 0.0279154
+Final cost after weighting: -2.999715
+E1_hat_1: 0.000666667
+PI step 81 time: 0.0155801 seconds
+********a: -7.31322
+********New psi: 0.8
+9.04626e-08
+Iteration: 82/150 ---------------------------
+Expected cost over samples: -11.984
+min cost: -11.9856
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.89649 traceCovElite~=0.822293 R2=0.10143 H(w)=8.77097e-57 perp=1 w_max=1
+--------Variance: 2.95785e-08
+Sum of |delta_u|: 0.4281
+Post-update R2: 0.0667567
+Final cost after weighting: -2.999712
+E1_hat_1: 0.000666667
+PI step 82 time: 0.0155561 seconds
+********a: -7.31322
+********New psi: 0.8
+7.23701e-08
+Iteration: 83/150 ---------------------------
+Expected cost over samples: -11.984
+min cost: -11.9854
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.71665 traceCovElite~=0.840594 R2=0.0667905 H(w)=6.57032e-17 perp=1 w_max=1
+--------Variance: 4.85547e-08
+Sum of |delta_u|: 0.585518
+Post-update R2: 0.0138367
+Final cost after weighting: -2.999728
+E1_hat_1: 0.000666667
+PI step 83 time: 0.0158187 seconds
+********a: -7.31322
+********New psi: 0.8
+5.7896e-08
+Iteration: 84/150 ---------------------------
+Expected cost over samples: -11.9842
+min cost: -11.9853
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.31234 traceCovElite~=0.850321 R2=0.0778557 H(w)=2.36237e-47 perp=1 w_max=1
+--------Variance: 5.77461e-08
+Sum of |delta_u|: 0.77514
+Post-update R2: 0.015523
+Final cost after weighting: -2.999718
+E1_hat_1: 0.000666667
+PI step 84 time: 0.0166375 seconds
+********a: -7.31322
+********New psi: 0.8
+4.63168e-08
+Iteration: 85/150 ---------------------------
+Expected cost over samples: -11.9836
+min cost: -11.9847
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.88908 traceCovElite~=0.86533 R2=0.0590032 H(w)=1.11407e-09 perp=1 w_max=1
+--------Variance: 1.50261e-08
+Sum of |delta_u|: 0.381384
+Post-update R2: 0.0383143
+Final cost after weighting: -2.999758
+E1_hat_1: 0.000666667
+PI step 85 time: 0.0161058 seconds
+********a: -7.31322
+********New psi: 0.8
+3.70535e-08
+Iteration: 86/150 ---------------------------
+Expected cost over samples: -11.984
+min cost: -11.985
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.70383 traceCovElite~=0.812155 R2=0.0989255 H(w)=2.90453e-97 perp=1 w_max=1
+--------Variance: 2.4626e-08
+Sum of |delta_u|: 0.672135
+Post-update R2: 0.0399751
+Final cost after weighting: -2.999743
+E1_hat_1: 0.000666667
+PI step 86 time: 0.01564 seconds
+********a: -7.31322
+********New psi: 0.8
+2.96428e-08
+Iteration: 87/150 ---------------------------
+Expected cost over samples: -11.9838
+min cost: -11.9847
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.29069 traceCovElite~=0.828911 R2=0.071891 H(w)=2.48914e-45 perp=1 w_max=1
+--------Variance: 2.91785e-08
+Sum of |delta_u|: 0.775281
+Post-update R2: 0.0443404
+Final cost after weighting: -2.999720
+E1_hat_1: 0.000666667
+PI step 87 time: 0.015737 seconds
+********a: -7.31322
+********New psi: 0.8
+2.37142e-08
+Iteration: 88/150 ---------------------------
+Expected cost over samples: -11.9853
+min cost: -11.9861
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.15999 traceCovElite~=0.770562 R2=0.128054 H(w)=5.64813e-265 perp=1 w_max=1
+--------Variance: 1.00579e-08
+Sum of |delta_u|: 0.566531
+Post-update R2: 0.0651251
+Final cost after weighting: -2.999754
+E1_hat_1: 0.000666667
+PI step 88 time: 0.0158048 seconds
+********a: -7.31322
+********New psi: 0.8
+1.89714e-08
+Iteration: 89/150 ---------------------------
+Expected cost over samples: -11.9853
+min cost: -11.986
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.88942 traceCovElite~=0.823996 R2=0.0944816 H(w)=2.89536e-16 perp=1 w_max=1
+--------Variance: 2.60889e-08
+Sum of |delta_u|: 1.00993
+Post-update R2: 0.0578688
+Final cost after weighting: -2.999756
+E1_hat_1: 0.000666667
+PI step 89 time: 0.0157577 seconds
+********a: -7.31322
+********New psi: 0.8
+1.51771e-08
+Iteration: 90/150 ---------------------------
+Expected cost over samples: -11.9847
+min cost: -11.9854
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.16679 traceCovElite~=0.852019 R2=0.0627142 H(w)=6.02614e-148 perp=1 w_max=1
+--------Variance: 6.47769e-09
+Sum of |delta_u|: 0.524359
+Post-update R2: 0.0243646
+Final cost after weighting: -2.999774
+E1_hat_1: 0.000666667
+PI step 90 time: 0.0156422 seconds
+********a: -7.31322
+********New psi: 0.8
+1.21417e-08
+Iteration: 91/150 ---------------------------
+Expected cost over samples: -11.9852
+min cost: -11.9858
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.65635 traceCovElite~=0.82474 R2=0.0889702 H(w)=2.39259e-65 perp=1 w_max=1
+--------Variance: 7.78847e-09
+Sum of |delta_u|: 0.584351
+Post-update R2: 0.0719608
+Final cost after weighting: -2.999766
+E1_hat_1: 0.000666667
+PI step 91 time: 0.0157619 seconds
+********a: -7.31322
+********New psi: 0.8
+9.71334e-09
+Iteration: 92/150 ---------------------------
+Expected cost over samples: -11.9853
+min cost: -11.9857
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.19184 traceCovElite~=0.840893 R2=0.0829408 H(w)=4.92459e-87 perp=1 w_max=1
+--------Variance: 8.99619e-09
+Sum of |delta_u|: 0.899534
+Post-update R2: 0.0343771
+Final cost after weighting: -2.999764
+E1_hat_1: 0.000666667
+PI step 92 time: 0.0156292 seconds
+********a: -7.31322
+********New psi: 0.8
+7.77068e-09
+Iteration: 93/150 ---------------------------
+Expected cost over samples: -11.9856
+min cost: -11.986
+%%%%%%%%%E1_hat: 0.000666689
+ESS: 1.00007 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.93129 traceCovElite~=0.822646 R2=0.0957442 H(w)=0.000385466 perp=1.00039 w_max=0.999966
+--------Variance: 1.09169e-08
+Sum of |delta_u|: 0.910722
+Post-update R2: 0.0484144
+Final cost after weighting: -2.999770
+E1_hat_1: 0.000666689
+PI step 93 time: 0.0158354 seconds
+********a: -7.31319
+********New psi: 0.8
+6.21654e-09
+Iteration: 94/150 ---------------------------
+Expected cost over samples: -11.9867
+min cost: -11.9871
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.25203 traceCovElite~=0.795008 R2=0.0917582 H(w)=1.93514e-17 perp=1 w_max=1
+--------Variance: 1.0217e-08
+Sum of |delta_u|: 1.03493
+Post-update R2: 0.0608466
+Final cost after weighting: -2.999767
+E1_hat_1: 0.000666667
+PI step 94 time: 0.0156659 seconds
+********a: -7.31322
+********New psi: 0.8
+4.97323e-09
+Iteration: 95/150 ---------------------------
+Expected cost over samples: -11.9875
+min cost: -11.9878
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.42218 traceCovElite~=0.884927 R2=0.0862404 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 5.29474e-09
+Sum of |delta_u|: 0.816768
+Post-update R2: 0.0408201
+Final cost after weighting: -2.999778
+E1_hat_1: 0.000666667
+PI step 95 time: 0.0155396 seconds
+********a: -7.31322
+********New psi: 0.8
+3.97859e-09
+Iteration: 96/150 ---------------------------
+Expected cost over samples: -11.9875
+min cost: -11.9878
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.29566 traceCovElite~=0.775347 R2=0.0996237 H(w)=8.41436e-08 perp=1 w_max=1
+--------Variance: 1.90601e-09
+Sum of |delta_u|: 0.573413
+Post-update R2: 0.0541681
+Final cost after weighting: -2.999776
+E1_hat_1: 0.000666667
+PI step 96 time: 0.0157565 seconds
+********a: -7.31322
+********New psi: 0.8
+3.18287e-09
+Iteration: 97/150 ---------------------------
+Expected cost over samples: -11.9872
+min cost: -11.9875
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.74187 traceCovElite~=0.79241 R2=0.0870118 H(w)=2.37326e-234 perp=1 w_max=1
+--------Variance: 2.1753e-09
+Sum of |delta_u|: 0.668279
+Post-update R2: 0.0501923
+Final cost after weighting: -2.999785
+E1_hat_1: 0.000666667
+PI step 97 time: 0.016537 seconds
+********a: -7.31322
+********New psi: 0.8
+2.54629e-09
+Iteration: 98/150 ---------------------------
+Expected cost over samples: -11.9873
+min cost: -11.9875
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.00345 traceCovElite~=0.798818 R2=0.0761063 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.08808e-09
+Sum of |delta_u|: 0.575267
+Post-update R2: 0.0411208
+Final cost after weighting: -2.999787
+E1_hat_1: 0.000666667
+PI step 98 time: 0.0185741 seconds
+********a: -7.31322
+********New psi: 0.8
+2.03704e-09
+Iteration: 99/150 ---------------------------
+Expected cost over samples: -11.9875
+min cost: -11.9878
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.11472 traceCovElite~=0.807 R2=0.0736027 H(w)=4.39553e-184 perp=1 w_max=1
+--------Variance: 8.28155e-10
+Sum of |delta_u|: 0.49318
+Post-update R2: 0.0478667
+Final cost after weighting: -2.999783
+E1_hat_1: 0.000666667
+PI step 99 time: 0.0198398 seconds
+********a: -7.31322
+********New psi: 0.8
+1.62963e-09
+Iteration: 100/150 ---------------------------
+Expected cost over samples: -11.9876
+min cost: -11.9879
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.79597 traceCovElite~=0.829433 R2=0.0612931 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 4.77852e-10
+Sum of |delta_u|: 0.452398
+Post-update R2: 0.0406024
+Final cost after weighting: -2.999783
+E1_hat_1: 0.000666667
+PI step 100 time: 0.0199462 seconds
+********a: -7.31322
+********New psi: 0.8
+1.3037e-09
+Iteration: 101/150 ---------------------------
+Expected cost over samples: -11.9876
+min cost: -11.9878
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.2771 traceCovElite~=0.805152 R2=0.119961 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 6.14542e-10
+Sum of |delta_u|: 0.577497
+Post-update R2: 0.0551058
+Final cost after weighting: -2.999784
+E1_hat_1: 0.000666667
+PI step 101 time: 0.0187441 seconds
+********a: -7.31322
+********New psi: 0.8
+1.04296e-09
+Iteration: 102/150 ---------------------------
+Expected cost over samples: -11.9876
+min cost: -11.9878
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.14868 traceCovElite~=0.843154 R2=0.0992527 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 4.3774e-10
+Sum of |delta_u|: 0.544898
+Post-update R2: 0.0590748
+Final cost after weighting: -2.999789
+E1_hat_1: 0.000666667
+PI step 102 time: 0.0185089 seconds
+********a: -7.31322
+********New psi: 0.8
+8.3437e-10
+Iteration: 103/150 ---------------------------
+Expected cost over samples: -11.9877
+min cost: -11.9878
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=0.991495 traceCovElite~=0.76134 R2=0.0731771 H(w)=2.16469e-161 perp=1 w_max=1
+--------Variance: 7.45664e-11
+Sum of |delta_u|: 0.223474
+Post-update R2: 0.058184
+Final cost after weighting: -2.999785
+E1_hat_1: 0.000666667
+PI step 103 time: 0.0182383 seconds
+********a: -7.31322
+********New psi: 0.8
+6.67496e-10
+Iteration: 104/150 ---------------------------
+Expected cost over samples: -11.9877
+min cost: -11.9878
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.42226 traceCovElite~=0.823273 R2=0.102783 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 3.56027e-10
+Sum of |delta_u|: 0.530993
+Post-update R2: 0.0597255
+Final cost after weighting: -2.999787
+E1_hat_1: 0.000666667
+PI step 104 time: 0.0182578 seconds
+********a: -7.31322
+********New psi: 0.8
+5.33997e-10
+Iteration: 105/150 ---------------------------
+Expected cost over samples: -11.9878
+min cost: -11.9879
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.75934 traceCovElite~=0.864931 R2=0.0763125 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 6.8603e-10
+Sum of |delta_u|: 0.857472
+Post-update R2: 0.0402101
+Final cost after weighting: -2.999790
+E1_hat_1: 0.000666667
+PI step 105 time: 0.0184384 seconds
+********a: -7.31322
+********New psi: 0.8
+4.27197e-10
+Iteration: 106/150 ---------------------------
+Expected cost over samples: -11.9879
+min cost: -11.988
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.03625 traceCovElite~=0.830554 R2=0.109279 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 3.5802e-10
+Sum of |delta_u|: 0.717951
+Post-update R2: 0.023931
+Final cost after weighting: -2.999789
+E1_hat_1: 0.000666667
+PI step 106 time: 0.0185194 seconds
+********a: -7.31322
+********New psi: 0.8
+3.41758e-10
+Iteration: 107/150 ---------------------------
+Expected cost over samples: -11.988
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.01358 traceCovElite~=0.829324 R2=0.0692026 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.82137e-10
+Sum of |delta_u|: 0.709464
+Post-update R2: 0.0234921
+Final cost after weighting: -2.999789
+E1_hat_1: 0.000666667
+PI step 107 time: 0.0190693 seconds
+********a: -7.31322
+********New psi: 0.8
+2.73406e-10
+Iteration: 108/150 ---------------------------
+Expected cost over samples: -11.9879
+min cost: -11.9879
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.33092 traceCovElite~=0.864115 R2=0.0531512 H(w)=7.48164e-226 perp=1 w_max=1
+--------Variance: 1.35042e-10
+Sum of |delta_u|: 0.600896
+Post-update R2: 0.0329486
+Final cost after weighting: -2.999790
+E1_hat_1: 0.000666667
+PI step 108 time: 0.0186707 seconds
+********a: -7.31322
+********New psi: 0.8
+2.18725e-10
+Iteration: 109/150 ---------------------------
+Expected cost over samples: -11.9879
+min cost: -11.988
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.56795 traceCovElite~=0.839618 R2=0.0608485 H(w)=1.41603e-257 perp=1 w_max=1
+--------Variance: 2.53116e-10
+Sum of |delta_u|: 0.912449
+Post-update R2: 0.0119813
+Final cost after weighting: -2.999791
+E1_hat_1: 0.000666667
+PI step 109 time: 0.0180645 seconds
+********a: -7.31322
+********New psi: 0.8
+1.7498e-10
+Iteration: 110/150 ---------------------------
+Expected cost over samples: -11.9878
+min cost: -11.9878
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.33862 traceCovElite~=0.825626 R2=0.0549387 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.77305e-10
+Sum of |delta_u|: 0.785332
+Post-update R2: 0.00799675
+Final cost after weighting: -2.999791
+E1_hat_1: 0.000666667
+PI step 110 time: 0.0188411 seconds
+********a: -7.31322
+********New psi: 0.8
+1.39984e-10
+Iteration: 111/150 ---------------------------
+Expected cost over samples: -11.9878
+min cost: -11.9879
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.62934 traceCovElite~=0.844706 R2=0.0751241 H(w)=8.62988e-250 perp=1 w_max=1
+--------Variance: 8.79735e-11
+Sum of |delta_u|: 0.679925
+Post-update R2: 0.0368396
+Final cost after weighting: -2.999791
+E1_hat_1: 0.000666667
+PI step 111 time: 0.0185556 seconds
+********a: -7.31322
+********New psi: 0.8
+1.11987e-10
+Iteration: 112/150 ---------------------------
+Expected cost over samples: -11.9878
+min cost: -11.9879
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.02298 traceCovElite~=0.801409 R2=0.107578 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 4.16639e-11
+Sum of |delta_u|: 0.493933
+Post-update R2: 0.0621581
+Final cost after weighting: -2.999791
+E1_hat_1: 0.000666667
+PI step 112 time: 0.0181246 seconds
+********a: -7.31322
+********New psi: 0.8
+8.95898e-11
+Iteration: 113/150 ---------------------------
+Expected cost over samples: -11.9878
+min cost: -11.9879
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.89203 traceCovElite~=0.813335 R2=0.0754338 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 6.81169e-11
+Sum of |delta_u|: 0.655842
+Post-update R2: 0.0402523
+Final cost after weighting: -2.999791
+E1_hat_1: 0.000666667
+PI step 113 time: 0.0186968 seconds
+********a: -7.31322
+********New psi: 0.8
+7.16718e-11
+Iteration: 114/150 ---------------------------
+Expected cost over samples: -11.9879
+min cost: -11.988
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.33359 traceCovElite~=0.761859 R2=0.0678288 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 7.2406e-11
+Sum of |delta_u|: 0.826771
+Post-update R2: 0.0305012
+Final cost after weighting: -2.999791
+E1_hat_1: 0.000666667
+PI step 114 time: 0.0182847 seconds
+********a: -7.31322
+********New psi: 0.8
+5.73375e-11
+Iteration: 115/150 ---------------------------
+Expected cost over samples: -11.9879
+min cost: -11.988
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.00386 traceCovElite~=0.856266 R2=0.0542354 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.09301e-11
+Sum of |delta_u|: 0.460312
+Post-update R2: 0.0329868
+Final cost after weighting: -2.999792
+E1_hat_1: 0.000666667
+PI step 115 time: 0.0187934 seconds
+********a: -7.31322
+********New psi: 0.8
+4.587e-11
+Iteration: 116/150 ---------------------------
+Expected cost over samples: -11.9879
+min cost: -11.988
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.36514 traceCovElite~=0.809154 R2=0.0766455 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 4.72216e-11
+Sum of |delta_u|: 0.71157
+Post-update R2: 0.0216008
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 116 time: 0.0190784 seconds
+********a: -7.31322
+********New psi: 0.8
+3.6696e-11
+Iteration: 117/150 ---------------------------
+Expected cost over samples: -11.988
+min cost: -11.988
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.32103 traceCovElite~=0.839601 R2=0.0803173 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.79705e-11
+Sum of |delta_u|: 0.595562
+Post-update R2: 0.0467349
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 117 time: 0.0183162 seconds
+********a: -7.31322
+********New psi: 0.8
+2.93568e-11
+Iteration: 118/150 ---------------------------
+Expected cost over samples: -11.988
+min cost: -11.988
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.22775 traceCovElite~=0.861089 R2=0.0820032 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.78013e-11
+Sum of |delta_u|: 0.764063
+Post-update R2: 0.0207111
+Final cost after weighting: -2.999792
+E1_hat_1: 0.000666667
+PI step 118 time: 0.0191988 seconds
+********a: -7.31322
+********New psi: 0.8
+2.34854e-11
+Iteration: 119/150 ---------------------------
+Expected cost over samples: -11.988
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.99752 traceCovElite~=0.843164 R2=0.0817983 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 8.51878e-12
+Sum of |delta_u|: 0.52883
+Post-update R2: 0.0358622
+Final cost after weighting: -2.999792
+E1_hat_1: 0.000666667
+PI step 119 time: 0.017644 seconds
+********a: -7.31322
+********New psi: 0.8
+1.87883e-11
+Iteration: 120/150 ---------------------------
+Expected cost over samples: -11.988
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.62737 traceCovElite~=0.84461 R2=0.0829237 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.17878e-11
+Sum of |delta_u|: 0.578245
+Post-update R2: 0.0349554
+Final cost after weighting: -2.999792
+E1_hat_1: 0.000666667
+PI step 120 time: 0.0177289 seconds
+********a: -7.31322
+********New psi: 0.8
+1.50307e-11
+Iteration: 121/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.89911 traceCovElite~=0.824912 R2=0.0918307 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 4.92762e-12
+Sum of |delta_u|: 0.41902
+Post-update R2: 0.0687009
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 121 time: 0.0184254 seconds
+********a: -7.31322
+********New psi: 0.8
+1.20245e-11
+Iteration: 122/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.25988 traceCovElite~=0.802889 R2=0.0843444 H(w)=1.93137e-255 perp=1 w_max=1
+--------Variance: 1.1616e-11
+Sum of |delta_u|: 0.823477
+Post-update R2: 0.0297518
+Final cost after weighting: -2.999792
+E1_hat_1: 0.000666667
+PI step 122 time: 0.0180009 seconds
+********a: -7.31322
+********New psi: 0.8
+9.61963e-12
+Iteration: 123/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.54935 traceCovElite~=0.864689 R2=0.0724017 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.10165e-11
+Sum of |delta_u|: 0.792299
+Post-update R2: 0.0377616
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 123 time: 0.018921 seconds
+********a: -7.31322
+********New psi: 0.8
+7.6957e-12
+Iteration: 124/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.77696 traceCovElite~=0.830787 R2=0.0628171 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.59632e-11
+Sum of |delta_u|: 1.2574
+Post-update R2: 0.0230322
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 124 time: 0.0185748 seconds
+********a: -7.31322
+********New psi: 0.8
+6.15656e-12
+Iteration: 125/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.62178 traceCovElite~=0.774087 R2=0.0969093 H(w)=1.02718e-271 perp=1 w_max=1
+--------Variance: 3.84714e-12
+Sum of |delta_u|: 0.558692
+Post-update R2: 0.0294218
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 125 time: 0.0182666 seconds
+********a: -7.31322
+********New psi: 0.8
+4.92525e-12
+Iteration: 126/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.588 traceCovElite~=0.831788 R2=0.0758936 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.99878e-12
+Sum of |delta_u|: 0.549131
+Post-update R2: 0.0409096
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 126 time: 0.0182227 seconds
+********a: -7.31322
+********New psi: 0.8
+3.9402e-12
+Iteration: 127/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.87177 traceCovElite~=0.850196 R2=0.0862103 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 8.50146e-12
+Sum of |delta_u|: 0.988327
+Post-update R2: 0.0124648
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 127 time: 0.0188812 seconds
+********a: -7.31322
+********New psi: 0.8
+3.15216e-12
+Iteration: 128/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.49194 traceCovElite~=0.859063 R2=0.0633742 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.77926e-12
+Sum of |delta_u|: 0.583881
+Post-update R2: 0.0301106
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 128 time: 0.0181103 seconds
+********a: -7.31322
+********New psi: 0.8
+2.52173e-12
+Iteration: 129/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.48329 traceCovElite~=0.822715 R2=0.0734399 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.41343e-12
+Sum of |delta_u|: 0.615783
+Post-update R2: 0.0344593
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 129 time: 0.0180949 seconds
+********a: -7.31322
+********New psi: 0.8
+2.01738e-12
+Iteration: 130/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.56492 traceCovElite~=0.834085 R2=0.0628907 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 4.49135e-13
+Sum of |delta_u|: 0.369823
+Post-update R2: 0.0399845
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 130 time: 0.0193473 seconds
+********a: -7.31322
+********New psi: 0.8
+1.61391e-12
+Iteration: 131/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.61415 traceCovElite~=0.800793 R2=0.112289 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.00264e-12
+Sum of |delta_u|: 0.621928
+Post-update R2: 0.0431597
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 131 time: 0.0184895 seconds
+********a: -7.31322
+********New psi: 0.8
+1.29112e-12
+Iteration: 132/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.28355 traceCovElite~=0.855312 R2=0.0626124 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.26537e-12
+Sum of |delta_u|: 0.729018
+Post-update R2: 0.0377395
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 132 time: 0.0188079 seconds
+********a: -7.31322
+********New psi: 0.8
+1.0329e-12
+Iteration: 133/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=1.56853 traceCovElite~=0.774961 R2=0.0804464 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.30988e-13
+Sum of |delta_u|: 0.400455
+Post-update R2: 0.052665
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 133 time: 0.0170443 seconds
+********a: -7.31322
+********New psi: 0.8
+8.2632e-13
+Iteration: 134/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.40379 traceCovElite~=0.854519 R2=0.0824053 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 4.3406e-13
+Sum of |delta_u|: 0.595226
+Post-update R2: 0.0343116
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 134 time: 0.0180682 seconds
+********a: -7.31322
+********New psi: 0.8
+6.61056e-13
+Iteration: 135/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.31879 traceCovElite~=0.817163 R2=0.0968531 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 6.61851e-13
+Sum of |delta_u|: 0.751789
+Post-update R2: 0.0539748
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 135 time: 0.017778 seconds
+********a: -7.31322
+********New psi: 0.8
+5.28845e-13
+Iteration: 136/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.16284 traceCovElite~=0.825802 R2=0.0902292 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 4.80937e-13
+Sum of |delta_u|: 0.74609
+Post-update R2: 0.0581551
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 136 time: 0.0169525 seconds
+********a: -7.31322
+********New psi: 0.8
+4.23076e-13
+Iteration: 137/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.32657 traceCovElite~=0.799619 R2=0.0786613 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.08189e-13
+Sum of |delta_u|: 0.538923
+Post-update R2: 0.0547643
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 137 time: 0.0191002 seconds
+********a: -7.31322
+********New psi: 0.8
+3.38461e-13
+Iteration: 138/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.58938 traceCovElite~=0.776747 R2=0.0758348 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.06303e-13
+Sum of |delta_u|: 0.591744
+Post-update R2: 0.0169278
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 138 time: 0.0173507 seconds
+********a: -7.31322
+********New psi: 0.8
+2.70769e-13
+Iteration: 139/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.12678 traceCovElite~=0.790864 R2=0.0816597 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 4.19192e-13
+Sum of |delta_u|: 0.87408
+Post-update R2: 0.0626977
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 139 time: 0.0184798 seconds
+********a: -7.31322
+********New psi: 0.8
+2.16615e-13
+Iteration: 140/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.36427 traceCovElite~=0.821228 R2=0.0885821 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.10058e-13
+Sum of |delta_u|: 0.609411
+Post-update R2: 0.0506104
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 140 time: 0.0193722 seconds
+********a: -7.31322
+********New psi: 0.8
+1.73292e-13
+Iteration: 141/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.0326 traceCovElite~=0.794128 R2=0.0777306 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 6.50854e-14
+Sum of |delta_u|: 0.524672
+Post-update R2: 0.0368291
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 141 time: 0.019094 seconds
+********a: -7.31322
+********New psi: 0.8
+1.38633e-13
+Iteration: 142/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.05883 traceCovElite~=0.843408 R2=0.0787272 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.07616e-13
+Sum of |delta_u|: 0.952523
+Post-update R2: 0.0267768
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 142 time: 0.0181721 seconds
+********a: -7.31322
+********New psi: 0.8
+1.10907e-13
+Iteration: 143/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.35928 traceCovElite~=0.841377 R2=0.0657637 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 5.61203e-14
+Sum of |delta_u|: 0.541886
+Post-update R2: 0.0315621
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 143 time: 0.0182555 seconds
+********a: -7.31322
+********New psi: 0.8
+8.87254e-14
+Iteration: 144/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=4.14664 traceCovElite~=0.817402 R2=0.0853693 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.38689e-13
+Sum of |delta_u|: 0.81896
+Post-update R2: 0.0336129
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 144 time: 0.0164418 seconds
+********a: -7.31322
+********New psi: 0.8
+7.09803e-14
+Iteration: 145/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=3.36419 traceCovElite~=0.84449 R2=0.0843131 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 7.30277e-14
+Sum of |delta_u|: 0.800878
+Post-update R2: 0.0434793
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 145 time: 0.0194408 seconds
+********a: -7.31322
+********New psi: 0.8
+5.67843e-14
+Iteration: 146/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.77128 traceCovElite~=0.825294 R2=0.0714471 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 3.96435e-14
+Sum of |delta_u|: 0.679839
+Post-update R2: 0.0454333
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 146 time: 0.0191695 seconds
+********a: -7.31322
+********New psi: 0.8
+4.54274e-14
+Iteration: 147/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.4677 traceCovElite~=0.892533 R2=0.0852785 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 2.51482e-14
+Sum of |delta_u|: 0.567766
+Post-update R2: 0.0509691
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 147 time: 0.0181794 seconds
+********a: -7.31322
+********New psi: 0.8
+3.63419e-14
+Iteration: 148/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.23148 traceCovElite~=0.854002 R2=0.0821054 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.6451e-14
+Sum of |delta_u|: 0.59153
+Post-update R2: 0.0329956
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 148 time: 0.0175015 seconds
+********a: -7.31322
+********New psi: 0.8
+2.90735e-14
+Iteration: 149/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.56 traceCovElite~=0.903279 R2=0.0735981 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.73215e-14
+Sum of |delta_u|: 0.636412
+Post-update R2: 0.042761
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 149 time: 0.0179893 seconds
+********a: -7.31322
+********New psi: 0.8
+2.32588e-14
+Iteration: 150/150 ---------------------------
+Expected cost over samples: -11.9881
+min cost: -11.9881
+%%%%%%%%%E1_hat: 0.000666667
+ESS: 1 / 1500
+Diag(valid=1500, elite=150) ||dU~||2=2.50844 traceCovElite~=0.85336 R2=0.0690495 H(w)=5.9109e-303 perp=1 w_max=1
+--------Variance: 1.33045e-14
+Sum of |delta_u|: 0.581177
+Post-update R2: 0.0474938
+Final cost after weighting: -2.999793
+E1_hat_1: 0.000666667
+PI step 150 time: 0.0179368 seconds
+********a: -7.31322
+********New psi: 0.8
+1.86071e-14
+Optimal cost -2.9997932420593276
+Optimal rob  -1.4434450745781646e-08
+Solver time  2.615181125

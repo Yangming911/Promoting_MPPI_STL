@@ -1,0 +1,21 @@
+R_ : 20  0
+ 0 20
+Iteration: 0/200 ---------------------------
+Expected cost over samples: 79.6157
+min cost: -15.2502
+%%%%%%%%%E1_hat: 0.472583
+ESS: 2716.16 / 3000
+Diag(valid=3000, elite=300) ||dU~||2=0.226106 traceCovElite~=0.964434 R2=7.05577e-06 H(w)=7.96073 perp=2866.16 w_max=0.000705343
+--------Variance: 0.00220798
+Sum of |delta_u|: 0.0229337
+Post-update R2: 0.00417323
+Final cost after weighting: 7.211570
+E1_hat_1: 0.472583
+PI step 0 time: 0.088645 seconds
+********a: -0.749541
+********New psi: 0.174954
+1.04972       0
+      0 1.04972
+Optimal cost 7.211570169962357
+Optimal rob  -0.20860808069471182
+Solver time  0.089886542

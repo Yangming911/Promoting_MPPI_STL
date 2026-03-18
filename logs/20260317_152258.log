@@ -1,0 +1,69 @@
+R_ : 20  0
+ 0 20
+Iteration: 0/200 ---------------------------
+Expected cost over samples: 80.1731
+min cost: -15.3432
+%%%%%%%%%E1_hat: 0.469593
+ESS: 2720.87 / 3000
+Diag(valid=3000, elite=300) ||dU~||2=0.181103 traceCovElite~=0.992332 R2=8.31877e-05 H(w)=7.96166 perp=2868.83 w_max=0.000709834
+--------Variance: 0.00220475
+Sum of |delta_u|: 0.0193779
+Post-update R2: 0.00386031
+Final cost after weighting: 29.417314
+E1_hat_1: 0.469593
+PI step 0 time: 0.0933441 seconds
+********a: -0.755888
+********New psi: 0.175589
+1.05353       0
+      0 1.05353
+Iteration: 1/200 ---------------------------
+Expected cost over samples: 72.9251
+min cost: -22.745
+%%%%%%%%%E1_hat: 0.0416811
+ESS: 559.675 / 3000
+Diag(valid=3000, elite=300) ||dU~||2=0.846134 traceCovElite~=0.961988 R2=0.00174384 H(w)=6.80651 perp=903.71 w_max=0.00799723
+--------Variance: 0.00184745
+Sum of |delta_u|: 0.0932957
+Post-update R2: 0.00816804
+Final cost after weighting: 17.822612
+E1_hat_1: 0.0416811
+PI step 1 time: 0.0974773 seconds
+********a: -3.17771
+********New psi: 0.417771
+0.440135        0
+       0 0.440135
+Iteration: 2/200 ---------------------------
+Expected cost over samples: 43.9227
+min cost: -35.0282
+%%%%%%%%%E1_hat: 0.00538173
+ESS: 108.908 / 3000
+Diag(valid=3000, elite=300) ||dU~||2=0.990166 traceCovElite~=0.983888 R2=0.00462643 H(w)=5.92092 perp=372.753 w_max=0.061938
+--------Variance: 0.00432735
+Sum of |delta_u|: 0.110414
+Post-update R2: 0.000333514
+Final cost after weighting: 14.220672
+E1_hat_1: 0.00538173
+PI step 2 time: 0.0876393 seconds
+********a: -5.22475
+********New psi: 0.622475
+0.273973        0
+       0 0.273973
+Iteration: 3/200 ---------------------------
+Expected cost over samples: 43.4769
+min cost: -16.8582
+%%%%%%%%%E1_hat: 0.0123603
+ESS: 161.822 / 3000
+Diag(valid=3000, elite=300) ||dU~||2=0.87332 traceCovElite~=0.993315 R2=0.00304086 H(w)=5.79729 perp=329.405 w_max=0.026968
+--------Variance: 0.0017046
+Sum of |delta_u|: 0.101099
+Post-update R2: 8.59507e-05
+Final cost after weighting: 11.697766
+E1_hat_1: 0.0123603
+PI step 3 time: 0.093444 seconds
+********a: -4.39327
+********New psi: 0.539327
+0.147761        0
+       0 0.147761
+Optimal cost 11.697766001747626
+Optimal rob  -0.235070642762729
+Solver time  0.376191166

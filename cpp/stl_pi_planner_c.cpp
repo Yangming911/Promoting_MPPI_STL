@@ -447,10 +447,12 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
             double a;
             a = std::log(E1_hat_1);
             std::cout << "********a: " << a << std::endl;
-            new_psi = 0.843838;//-0.1*a + 0.1;//温和过程防止玻璃化，仍需改进
+            //new_psi = -0.1*a + 0.1;
+            new_psi = 0.843838;//温和过程防止玻璃化，仍需改进
+          
             std::cout << "********New psi: " << new_psi << std::endl;
-            cov_curr *= 0.843838;//new_psi;
-            lamb_curr *= 0.843838;//new_psi;
+            cov_curr *= new_psi;
+            lamb_curr *= new_psi;
         } else {
             // Scale covariance and lambda
             //double new_psi;
@@ -467,6 +469,7 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
             std::cout << "********a(H_hat): " << a << std::endl;
 
             new_psi = std::max(0.3, 0.6 * (1.0 - H_hat)); //根据熵的极冷过程，H_hat是信息熵
+            //new_psi =std::max(0.6, 0.8 * (1.0 - H_hat));
             std::cout << "********New psi: " << new_psi << std::endl;
 
             cov_curr *= new_psi;
