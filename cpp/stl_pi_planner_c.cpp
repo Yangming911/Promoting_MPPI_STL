@@ -430,7 +430,7 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
         // lamb_curr *= new_psi;
 
         int shrink_flag = 1; // 1: new 0: old
-        if ( i> 6) {//需要一个判断来决定是否开始保护过程，防止玻璃化,对比energy和entropy
+        if ( i> 100) {//需要一个判断来决定是否开始保护过程，防止玻璃化,对比energy和entropy
             // double new_psi;
             // double a;
             // a = std::log(E1_hat_1);
@@ -468,8 +468,8 @@ std::tuple<MatrixXd, MatrixXd, double, double, double, std::vector<MatrixXd>, st
             a = H_hat;
             std::cout << "********a(H_hat): " << a << std::endl;
 
-            new_psi = std::max(0.3, 0.6 * (1.0 - H_hat)); //根据熵的极冷过程，H_hat是信息熵
-            //new_psi =std::max(0.6, 0.8 * (1.0 - H_hat));
+            //new_psi = std::max(0.3, 0.6 * (1.0 - H_hat)); //根据熵的极冷过程，H_hat是信息熵
+            new_psi =std::max(0.3, 0.8438 * (1.0 - H_hat));
             std::cout << "********New psi: " << new_psi << std::endl;
 
             cov_curr *= new_psi;
